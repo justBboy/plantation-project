@@ -1,0 +1,225 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block content %}
+<div class="header">
+    <h2>ARANYANI</h2>
+  </div>
+
+  <div class="container content">
+    <section class="dataSection">
+      <h2 data-aos="zoom-in" class="dataSection__header text-center mt-5">
+        Data Visualization
+      </h2>
+      <img
+        data-aos="flip-up"
+        src="https://climate.nasa.gov/system/resources/detail_files/24_co2-graph-061219-768px.jpg"
+        alt="the relentless rise of carbon dioxide"
+      />
+      <h3 data-aos="zoom-in">The relentless rise of carbon dioxide</h3>
+      <p>
+        Ancient air bubbles trapped in ice enable us to step back in time and
+        see what Earth's atmosphere, and climate, were like in the distant
+        past. They tell us that levels of carbon dioxide (CO2) in the
+        atmosphere are higher than they have been at any time in the past
+        400,000 years. During ice ages, CO2 levels were around 200 parts per
+        million (ppm), and during the warmer interglacial periods, they
+        hovered around 280 ppm (see fluctuations in the graph). In 2013, CO2
+        levels surpassed 400 ppm for the first time in recorded history.
+        <a
+          href="https://climate.nasa.gov/climate_resources/24/graphic-the-relentless-rise-of-carbon-dioxide/"
+          >read more</a
+        >
+      </p>
+
+      <div class="dataSection__researches">
+        <div data-aos="fade-right" class="dataSection__research">
+          <img
+            src="{% static 'assets/photo_2020-11-14_13-36-41.jpg' %}"
+            alt=""
+          />
+          <h3>Carbon dioxide hits new high</h3>
+          <p>
+            Imagine there are no people. Imagine a planet where the sea level
+            is about five to 40 meters (16 to 131 feet) higher than normal.
+            Imagine a planet that is hotter and wetter. Imagine, worldwide,
+            it’s roughly 3 to 4 degrees Celsius (5.4 to 7.2 degrees
+            Fahrenheit) warmer than today. And the North and South poles are
+            even warmer still – as much as 10 degrees Celsius (18 degrees
+            Fahrenheit) hotter than today. ..
+          </p>
+        </div>
+        <div data-aos="fade-left" class="dataSection__research">
+          <img
+            src="{% static 'assets/photo_2020-11-14_13-23-58.jpg' %}"
+            alt=""
+          />
+          <h3>Carbon dioxide</h3>
+          <p>
+            This time series shows global changes in the concentration and
+            distribution of carbon dioxide since 2002 at an altitude range of
+            1.9 to 8 miles. The yellow-to-red regions indicate higher
+            concentrations of CO2, while blue-to-green areas indicate lower
+            concentrations, measured in parts per million. ...
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- impact section -->
+    <section class="impactSection text-center mt-5">
+      <h2 data-aos="zoom-in">Our Impact</h2>
+      <h5 data-aos="zoom-in">These are what we aim to impact on</h5>
+      <div>
+        <div
+          data-aos="fade-right"
+          class="impactSection__flex mt-5 border-right"
+        >
+          <h2>Environmental impact</h2>
+          <div class="mt-4">
+            <div>
+              <h3>Lowering CO2 and increasing groundwater levels:</h3>
+              <p>
+                Afforestation will cut the amount of CO2 in the atmosphere substantially,
+while also promoting ground fertility and water levels for a healthier
+ecosystem.
+              </p>
+            </div>
+          </div>
+          <div class="mt-4">
+            <div>
+              <h3>Sustaining the planet</h3>
+              <p>
+                Unlike the generations before us, we are more conscious than ever, and exactly this can be used to reduce our carbon footprint to secure the future for our future generations, so they don't have to deal with the same problems that we do
+              </p>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="impactSection__flex mt-5">
+          <h2>Social Impact</h2>
+          <div class="mt-4">
+            <div>
+              <h3>Awareness Health</h3>
+              <p>
+                We as a generation have access to information and resources more than we've ever had.
+Taking into account the consequences of the much neglected bigger-picture issues, we can use our first hand perspective to greater use through awareness and education.
+Only with a broader collaborative effort will we be able to come close to achieving the goal of a healthier future, and simultaneously inspire generations to come to carry this forward.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end impact section -->
+    <!-- our team section -->
+    <section class="teamSection text-center mt-5">
+      <h2>Our Team</h2>
+      <div class="row">
+        <div data-aos="flip-up" class="teamSection__user col-md-4">
+          <img
+            src="{% static 'assets/photo_2020-11-14_16-52-20.jpg' %}"
+            alt=""
+            width="100%"
+            height="50%"
+            style="border-radius: 50%;"
+          />
+          <h3>Shreyas Kalikar</h3>
+          <h4>Information Technology</h4>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a class="btn btn-secondary" href="https://www.linkedin.com/in/shreyas-kalikar-4488571a0">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i> <span>Linkedin</span>
+                </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="teamSection__user col-md-4">
+          <img
+            src="data:image/png;base64,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"
+            alt=""
+          />
+          <h3>Your Name</h3>
+          <h4>Computer Science</h4>
+          <div class="social-links">
+            <ul>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div data-aos="flip-up" class="teamSection__user col-md-4">
+          <img
+            src="data:image/png;base64,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"
+            alt=""
+          />
+          <h3>Your Name</h3>
+          <h4>Computer Science</h4>
+          <div class="social-links">
+            <ul>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our team ends -->
+    <!-- how it works section -->
+    <section data-aos="zoom-in" class="howSection text-center mt-3">
+      <h2>How it works</h2>
+      <hr style="box-shadow: 0 4px 0 0 #000" />
+      <div class="row">
+        <div class="card col-md-3 how-card">
+          <div class="card-body">
+            <h3>FUNDING SYSTEM</h3>
+            <hr />
+            <p>After the donation made by you is processed, you will recieve certification
+              stating your contribution, making the process fully transparent and up front.
+              The money donated will be delegated to multiple verified NGOs (or) the local
+              garden municipality, depending on the region. If the plant report is not submitted
+              to you withing 3 months, you will be refunded the money, where you can
+              choose to possibly replant in another region.</p>
+          </div>
+        </div>
+        <div class="card col-md-3 how-card">
+          <div class="card-body">
+            <h3>FOR PLANTER</h3>
+            <hr />
+            <p>Can't donate? Not a problem! You can still help the environment by contributing to a tree entity
+              being funded by others like you! You can donate a small denomination to even partially cover the charge 
+              by filling an application that vouches for your donation, and the other terms stand the same!</p>
+          </div>
+        </div>
+        <div class="card col-md-3 how-card">
+          <div class="card-body">
+            <h3>FOR DONATOR</h3>
+            <hr />
+            <p>For donations, we have quick, accessible, and secure portals where you can donate through
+              online payment methods such as credit, debit, or UPI! This is the money that will be sent to 
+              NGOs that will take the process of plantation forward in the region of your choice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- how it works end -->
+    <!-- ready section -->
+    <section data-aos="flip-left" class="readySection text-center mt-5">
+      <h2>Are you ready to start?</h2>
+      <a class="btn btn-danger" href="{% url 'donate' %}"
+        >Donate <span><i class="fa fa-heart" aria-hidden="true"></i></span
+      ></a>
+      <a class="btn btn-success" href="{% url 'plant' %}"
+        >Plant <span><i class="fa fa-tree" aria-hidden="true"></i></span
+      ></a>
+    </section>
+    <!-- end ready section -->
+    <!-- footer -->
+    <!-- end footer -->
+  </div>
+
+{% endblock %}

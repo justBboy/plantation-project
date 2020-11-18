@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="login-container container">
+        
+    {% if form.errors %}
+        <div class="login-error">
+            <h3>There was an error with your email or password</h3>
+        </div>
+    {% endif %}
+    <form method="post" action="{% url 'signup' %}">
+        {% csrf_token %}
+        {{form}}
+        <button class="btn btn-primary" type="submit" name="action">Submit</button>
+          <input type="hidden" name='next' value="{{next}}">
+    </form>
+    <p>You can login too <a href="{% url 'login' %}">here</a></p>
+</div>
+{% endblock content %}

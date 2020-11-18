@@ -1,0 +1,70 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block links %} 
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+ 
+<link rel="stylesheet" href="{% static 'css/Chart.min.css' %}">
+<script src="{% static 'js/Chart.min.js' %}"></script>
+{% endblock links %}
+
+{% block content %}
+<div class="container-fluid main-content">
+    {% if not succeeded %}
+        <div class="row max-height">
+            <div class="col-md-5 scroll border-right">
+                <div class="chartsSection">
+                    <h2>Graph Data</h2>
+                    <div class="chartsSection__buttons">
+                        <button class="btn btn-primary" id="co2-btn">CO2 Concentration</button>
+                        <button class="btn btn-warning" id="emission-btn">Emission Graph</button>
+                    </div>
+                    <select class="form-control" name="country" id="country-selector" style="display: none;">
+                    </select>
+                    <div class="chartsSection__charts">
+                    </div>
+                </div>
+                <hr />
+                <div class="mapFunctionsSection">
+                    <h2>Map Functions</h2>
+                    <button id="locate-me-btn" class="btn btn-success">Locate me</button>
+                    <button id="reset-btn" class="btn btn-warning">Reset</button>
+ <button id="nearby-btn" class="btn btn-info">Get nearby plant seller</button>
+ 
+                </div>
+                <hr />
+                <div class="showMapDataSection">
+                    <h2>Show Map Data</h2>
+                    <button id="death-rate-btn" class="btn btn-danger">Show Death Rate</button>
+                    <button id="co2-emission-btn" class="btn btn-warning">Show co2 emission Rate</button>
+                </div>
+                <hr />
+                <h2>Fill the donator's form</h2>
+                <form method="POST" action="{% url 'donate' %}">
+                    {% csrf_token %}
+                    <div class="form-group">
+                    <label for="donation" style="display: block;">Amount</label>
+                    {{ form.amount }}
+                    </div>
+                    <div class="form-group">
+                    <label for="city">City</label>
+                    {{ form.city }}
+                    <button id="map-area-btn" class="btn btn-secondary mt-2">Check Area On Map</button>
+                    </div>
+                <button type="submit" class="btn btn-danger">Donate</button>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div class="map-container" style="cursor: grab;" id="mapContainer"></div>
+            </div>
+        </div>
+        {% else %}
+        <h2>You have donated successfully to sustain the world</h2>
+        <p>
+            Dear {{user.username}}, You have donated an amount of {{amount}}$ from {{city}} to help the world plant more trees to reduce carbon dioxide concentration in the atmosphere
+        </p>
+        {% endif %}
+
+</div>
+{% endblock content %}

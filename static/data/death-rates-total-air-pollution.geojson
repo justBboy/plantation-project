@@ -1,0 +1,2475 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.2385139,33.7680065 ]
+    },
+    "properties": {
+    "Entity":"Afghanistan",
+    "Code":"AFG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":183.9413870541869
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.9999619,41.000028 ]
+    },
+    "properties": {
+    "Entity":"Albania",
+    "Code":"ALB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":40.48112424828898
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.9999825,28.0000272 ]
+    },
+    "properties": {
+    "Entity":"Algeria",
+    "Code":"DZA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":43.68351172616028
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -170.692511,-14.289304 ]
+    },
+    "properties": {
+    "Entity":"American Samoa",
+    "Code":"ASM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":58.93948536624944
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.5732033,42.5407167 ]
+    },
+    "properties": {
+    "Entity":"Andorra",
+    "Code":"AND",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":15.569478463523978
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.5691241,-11.8775768 ]
+    },
+    "properties": {
+    "Entity":"Angola",
+    "Code":"AGO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":95.21990919773064
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.9554608,17.2234721 ]
+    },
+    "properties": {
+    "Entity":"Antigua and Barbuda",
+    "Code":"ATG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.35337087889398
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.9672817,-34.9964963 ]
+    },
+    "properties": {
+    "Entity":"Argentina",
+    "Code":"ARG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":31.057882843033887
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.6736646,40.7696272 ]
+    },
+    "properties": {
+    "Entity":"Armenia",
+    "Code":"ARM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":64.81278002952513
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 134.755,-24.7761086 ]
+    },
+    "properties": {
+    "Entity":"Australia",
+    "Code":"AUS",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":10.795951827407098
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.199959,47.2000338 ]
+    },
+    "properties": {
+    "Entity":"Austria",
+    "Code":"AUT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":17.58634934991682
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 47.7872508,40.3936294 ]
+    },
+    "properties": {
+    "Entity":"Azerbaijan",
+    "Code":"AZE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":80.19455281619848
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.0000547,24.7736546 ]
+    },
+    "properties": {
+    "Entity":"Bahamas",
+    "Code":"BHS",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.16057827516131
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 50.5344606,26.1551249 ]
+    },
+    "properties": {
+    "Entity":"Bahrain",
+    "Code":"BHR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":62.900449377330354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 90.2932426,24.4768783 ]
+    },
+    "properties": {
+    "Entity":"Bangladesh",
+    "Code":"BGD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":108.52547816698328
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -59.5250305,13.1500331 ]
+    },
+    "properties": {
+    "Entity":"Barbados",
+    "Code":"BRB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":35.068161413531136
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 27.6971358,53.4250605 ]
+    },
+    "properties": {
+    "Entity":"Belarus",
+    "Code":"BLR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":50.7119499458568
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.6667145,50.6402809 ]
+    },
+    "properties": {
+    "Entity":"Belgium",
+    "Code":"BEL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":19.127512733372576
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.7600927,16.8259793 ]
+    },
+    "properties": {
+    "Entity":"Belize",
+    "Code":"BLZ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":44.21203868186201
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2584408,9.5293472 ]
+    },
+    "properties": {
+    "Entity":"Benin",
+    "Code":"BEN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":113.15957555347747
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.7603583,32.3018217 ]
+    },
+    "properties": {
+    "Entity":"Bermuda",
+    "Code":"BMU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":17.643625701259747
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 90.5119273,27.549511 ]
+    },
+    "properties": {
+    "Entity":"Bhutan",
+    "Code":"BTN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":73.10805518693807
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.9912286,-17.0568696 ]
+    },
+    "properties": {
+    "Entity":"Bolivia",
+    "Code":"BOL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":53.875072037928945
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.5961467,44.3053476 ]
+    },
+    "properties": {
+    "Entity":"Bosnia and Herzegovina",
+    "Code":"BIH",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":58.07743401399994
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.5928742,-23.1681782 ]
+    },
+    "properties": {
+    "Entity":"Botswana",
+    "Code":"BWA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":69.80400607591162
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -53.2,-10.3333333 ]
+    },
+    "properties": {
+    "Entity":"Brazil",
+    "Code":"BRA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":30.32107718446788
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 114.5653908,4.4137155 ]
+    },
+    "properties": {
+    "Entity":"Brunei",
+    "Code":"BRN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":20.300877110426185
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.4856617,42.6073975 ]
+    },
+    "properties": {
+    "Entity":"Bulgaria",
+    "Code":"BGR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":51.39213644722451
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.6880314,12.0753083 ]
+    },
+    "properties": {
+    "Entity":"Burkina Faso",
+    "Code":"BFA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":133.18266376444097
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.8870575,-3.3634357 ]
+    },
+    "properties": {
+    "Entity":"Burundi",
+    "Code":"BDI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":142.77420767474803
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.869423,13.5066394 ]
+    },
+    "properties": {
+    "Entity":"Cambodia",
+    "Code":"KHM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":107.97949761148656
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.1535811,4.6125522 ]
+    },
+    "properties": {
+    "Entity":"Cameroon",
+    "Code":"CMR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":113.96151454529945
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.9917071,61.0666922 ]
+    },
+    "properties": {
+    "Entity":"Canada",
+    "Code":"CAN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":10.716618413539726
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -24.0083947,16.0000552 ]
+    },
+    "properties": {
+    "Entity":"Cape Verde",
+    "Code":"CPV",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":50.817777556463234
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.9981227,7.0323598 ]
+    },
+    "properties": {
+    "Entity":"Central African Republic",
+    "Code":"CAF",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":199.65099723487427
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.0156172,15.6134137 ]
+    },
+    "properties": {
+    "Entity":"Chad",
+    "Code":"TCD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":159.14741095199247
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.3187697,-31.7613365 ]
+    },
+    "properties": {
+    "Entity":"Chile",
+    "Code":"CHL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":24.29921297777114
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "Entity":"China",
+    "Code":"CHN",
+    "Year":1999,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":138.20173340901763
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 104.999927,35.000074 ]
+    },
+    "properties": {
+    "Entity":"China",
+    "Code":"CHN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":72.67678885845345
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.783892,2.8894434 ]
+    },
+    "properties": {
+    "Entity":"Colombia",
+    "Code":"COL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":22.0962392218409
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.2832964,-12.2045176 ]
+    },
+    "properties": {
+    "Entity":"Comoros",
+    "Code":"COM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":93.98944768869382
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.6419155,-0.7264327 ]
+    },
+    "properties": {
+    "Entity":"Congo",
+    "Code":"COG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":113.00518030689967
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.0739102,10.2735633 ]
+    },
+    "properties": {
+    "Entity":"Costa Rica",
+    "Code":"CRI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":21.21308224391965
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5679458,7.9897371 ]
+    },
+    "properties": {
+    "Entity":"Cote d'Ivoire",
+    "Code":"CIV",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":118.8365593679245
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.0118954,45.5643442 ]
+    },
+    "properties": {
+    "Entity":"Croatia",
+    "Code":"HRV",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":33.552074585083204
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.8328748,23.0131338 ]
+    },
+    "properties": {
+    "Entity":"Cuba",
+    "Code":"CUB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.46048101808931
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.1451285,34.9823018 ]
+    },
+    "properties": {
+    "Entity":"Cyprus",
+    "Code":"CYP",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":25.95910461328527
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.4749544,49.8167003 ]
+    },
+    "properties": {
+    "Entity":"Czech Republic",
+    "Code":"CZE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":30.159923281693157
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.8222636,-2.9814344 ]
+    },
+    "properties": {
+    "Entity":"Democratic Republic of Congo",
+    "Code":"COD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":142.68032992575937
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.3333283,55.670249 ]
+    },
+    "properties": {
+    "Entity":"Denmark",
+    "Code":"DNK",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":19.324887260097906
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 42.8453061,11.8145966 ]
+    },
+    "properties": {
+    "Entity":"Djibouti",
+    "Code":"DJI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":80.69632489595126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.3028026,19.0974031 ]
+    },
+    "properties": {
+    "Entity":"Dominica",
+    "Code":"DMA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":37.6752584195648
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.3028026,19.0974031 ]
+    },
+    "properties": {
+    "Entity":"Dominican Republic",
+    "Code":"DOM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":36.97274516490145
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.3666965,-1.3397668 ]
+    },
+    "properties": {
+    "Entity":"Ecuador",
+    "Code":"ECU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":27.135242910048543
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.2675469,26.2540493 ]
+    },
+    "properties": {
+    "Entity":"Egypt",
+    "Code":"EGY",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":113.35551184504843
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.9140683,13.8000382 ]
+    },
+    "properties": {
+    "Entity":"El Salvador",
+    "Code":"SLV",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":45.898198724122935
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.5170357,1.613172 ]
+    },
+    "properties": {
+    "Entity":"Equatorial Guinea",
+    "Code":"GNQ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":78.35860984601827
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 37.9999668,15.9500319 ]
+    },
+    "properties": {
+    "Entity":"Eritrea",
+    "Code":"ERI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":132.70047430840424
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.3319078,58.7523778 ]
+    },
+    "properties": {
+    "Entity":"Estonia",
+    "Code":"EST",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":15.651686870127074
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 38.6521203,10.2116702 ]
+    },
+    "properties": {
+    "Entity":"Ethiopia",
+    "Code":"ETH",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":88.82900506191545
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 179.0122737,-18.1239696 ]
+    },
+    "properties": {
+    "Entity":"Fiji",
+    "Code":"FJI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":100.59466782714483
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.9209164,63.2467777 ]
+    },
+    "properties": {
+    "Entity":"Finland",
+    "Code":"FIN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":8.507491500027184
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.8883335,46.603354 ]
+    },
+    "properties": {
+    "Entity":"France",
+    "Code":"FRA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":11.819222109054913
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.6899699,-0.8999695 ]
+    },
+    "properties": {
+    "Entity":"Gabon",
+    "Code":"GAB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":72.05364228980268
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -15.4900464,13.470062 ]
+    },
+    "properties": {
+    "Entity":"Gambia",
+    "Code":"GMB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":134.39277064537066
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.0287382,41.6809707 ]
+    },
+    "properties": {
+    "Entity":"Georgia",
+    "Code":"GEO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":70.51192620351799
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.4234469,51.0834196 ]
+    },
+    "properties": {
+    "Entity":"Germany",
+    "Code":"DEU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":19.82826477532281
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.0800271,8.0300284 ]
+    },
+    "properties": {
+    "Entity":"Ghana",
+    "Code":"GHA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":105.4369339198939
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.9877132,38.9953683 ]
+    },
+    "properties": {
+    "Entity":"Greece",
+    "Code":"GRC",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":25.723662678277606
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -42.8125967,77.6192349 ]
+    },
+    "properties": {
+    "Entity":"Greenland",
+    "Code":"GRL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.67641334760562
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.6904045,12.1360374 ]
+    },
+    "properties": {
+    "Entity":"Grenada",
+    "Code":"GRD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":49.212166633253155
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.8988087,15.6356088 ]
+    },
+    "properties": {
+    "Entity":"Guatemala",
+    "Code":"GTM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":65.9790002603592
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -10.7083587,10.7226226 ]
+    },
+    "properties": {
+    "Entity":"Guinea",
+    "Code":"GIN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":160.50377178907354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -14.9000214,12.100035 ]
+    },
+    "properties": {
+    "Entity":"Guinea-Bissau",
+    "Code":"GNB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":161.79803398722714
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -58.6416891,4.8417097 ]
+    },
+    "properties": {
+    "Entity":"Guyana",
+    "Code":"GUY",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":63.131069411243764
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.3570972,19.1399952 ]
+    },
+    "properties": {
+    "Entity":"Haiti",
+    "Code":"HTI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":121.36381010549023
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.0755145,15.2572432 ]
+    },
+    "properties": {
+    "Entity":"Honduras",
+    "Code":"HND",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":51.35947878557494
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.5060937,47.1817585 ]
+    },
+    "properties": {
+    "Entity":"Hungary",
+    "Code":"HUN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":39.20837155126984
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -18.1059013,64.9841821 ]
+    },
+    "properties": {
+    "Entity":"Iceland",
+    "Code":"ISL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":9.946781471307625
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 78.6677428,22.3511148 ]
+    },
+    "properties": {
+    "Entity":"India",
+    "Code":"IND",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":131.99401859860856
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 117.8902853,-2.4833826 ]
+    },
+    "properties": {
+    "Entity":"Indonesia",
+    "Code":"IDN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":66.18593254774466
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 54.5643516,32.6475314 ]
+    },
+    "properties": {
+    "Entity":"Iran",
+    "Code":"IRN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":46.15391906991914
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 44.1749775,33.0955793 ]
+    },
+    "properties": {
+    "Entity":"Iraq",
+    "Code":"IRQ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":42.67741933508978
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.9794599,52.865196 ]
+    },
+    "properties": {
+    "Entity":"Ireland",
+    "Code":"IRL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":14.667470964625556
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8667654,31.5313113 ]
+    },
+    "properties": {
+    "Entity":"Israel",
+    "Code":"ISR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":21.257973557981302
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.674297,42.6384261 ]
+    },
+    "properties": {
+    "Entity":"Italy",
+    "Code":"ITA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":16.75889407644987
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.3947693,18.1850507 ]
+    },
+    "properties": {
+    "Entity":"Jamaica",
+    "Code":"JAM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":41.8900571294336
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.2394179,36.5748441 ]
+    },
+    "properties": {
+    "Entity":"Japan",
+    "Code":"JPN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":11.386092450350931
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 36.941628,31.1667049 ]
+    },
+    "properties": {
+    "Entity":"Jordan",
+    "Code":"JOR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":39.44835403773899
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.2093197,47.2286086 ]
+    },
+    "properties": {
+    "Entity":"Kazakhstan",
+    "Code":"KAZ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":52.12178760199129
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 38.4313975,1.4419683 ]
+    },
+    "properties": {
+    "Entity":"Kenya",
+    "Code":"KEN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":90.3458197679713
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 173.664834025,0.306 ]
+    },
+    "properties": {
+    "Entity":"Kiribati",
+    "Code":"KIR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":153.74024119230128
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 47.4979476,29.2733964 ]
+    },
+    "properties": {
+    "Entity":"Kuwait",
+    "Code":"KWT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":34.78580059858391
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 74.724091,41.5089324 ]
+    },
+    "properties": {
+    "Entity":"Kyrgyzstan",
+    "Code":"KGZ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":70.16414517149336
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.378253,20.0171109 ]
+    },
+    "properties": {
+    "Entity":"Laos",
+    "Code":"LAO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":119.68570827941512
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.7537645,56.8406494 ]
+    },
+    "properties": {
+    "Entity":"Latvia",
+    "Code":"LVA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":34.25710938331846
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.843409,33.8750629 ]
+    },
+    "properties": {
+    "Entity":"Lebanon",
+    "Code":"LBN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":49.84311847644708
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.3350193,-29.6039267 ]
+    },
+    "properties": {
+    "Entity":"Lesotho",
+    "Code":"LSO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":151.950853259576
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.3658524,5.7499721 ]
+    },
+    "properties": {
+    "Entity":"Liberia",
+    "Code":"LBR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":113.1579595811448
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.1236723,26.8234472 ]
+    },
+    "properties": {
+    "Entity":"Libya",
+    "Code":"LBY",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":72.78869191749322
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.7499997,55.3500003 ]
+    },
+    "properties": {
+    "Entity":"Lithuania",
+    "Code":"LTU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":33.17304660318631
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.1296751,49.8158683 ]
+    },
+    "properties": {
+    "Entity":"Luxembourg",
+    "Code":"LUX",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":15.97749926375693
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.7168387,41.6171214 ]
+    },
+    "properties": {
+    "Entity":"Macedonia",
+    "Code":"MKD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":49.98650948279586
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 46.4416422,-18.9249604 ]
+    },
+    "properties": {
+    "Entity":"Madagascar",
+    "Code":"MDG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":155.06950760658387
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.9301963,-13.2687204 ]
+    },
+    "properties": {
+    "Entity":"Malawi",
+    "Code":"MWI",
+    "Year":2000,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":172.92017170460772
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.9301963,-13.2687204 ]
+    },
+    "properties": {
+    "Entity":"Malawi",
+    "Code":"MWI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":104.93508417351862
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 102.2656823,4.5693754 ]
+    },
+    "properties": {
+    "Entity":"Malaysia",
+    "Code":"MYS",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":50.44055047327774
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 73.3287853,4.7064352 ]
+    },
+    "properties": {
+    "Entity":"Maldives",
+    "Code":"MDV",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":21.43409424046895
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -2.2900239,16.3700359 ]
+    },
+    "properties": {
+    "Entity":"Mali",
+    "Code":"MLI",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":107.07540576931815
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4476911,35.8885993 ]
+    },
+    "properties": {
+    "Entity":"Malta",
+    "Code":"MLT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":23.624933392767463
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 170.9985095,6.9518742 ]
+    },
+    "properties": {
+    "Entity":"Marshall Islands",
+    "Code":"MHL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":93.04476503315009
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -9.2399263,20.2540382 ]
+    },
+    "properties": {
+    "Entity":"Mauritania",
+    "Code":"MRT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":83.84267118415103
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 57.5703566,-20.2759451 ]
+    },
+    "properties": {
+    "Entity":"Mauritius",
+    "Code":"MUS",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":48.68229856910007
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.0000375,22.5000485 ]
+    },
+    "properties": {
+    "Entity":"Mexico",
+    "Code":"MEX",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":44.40708421938613
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 28.5670941,47.2879608 ]
+    },
+    "properties": {
+    "Entity":"Moldova",
+    "Code":"MDA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":49.8682362169943
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8499736,46.8250388 ]
+    },
+    "properties": {
+    "Entity":"Mongolia",
+    "Code":"MNG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":81.61391845496415
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.5180992,42.9868853 ]
+    },
+    "properties": {
+    "Entity":"Montenegro",
+    "Code":"MNE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":47.54888833809019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.3362482,31.1728205 ]
+    },
+    "properties": {
+    "Entity":"Morocco",
+    "Code":"MAR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":67.26864667934552
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9144977,-19.302233 ]
+    },
+    "properties": {
+    "Entity":"Mozambique",
+    "Code":"MOZ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":125.85633337307777
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 95.9999652,17.1750495 ]
+    },
+    "properties": {
+    "Entity":"Myanmar",
+    "Code":"MMR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":118.10524630170325
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.3231107,-23.2335499 ]
+    },
+    "properties": {
+    "Entity":"Namibia",
+    "Code":"NAM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":75.60720741392433
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 84.0917139,28.1083929 ]
+    },
+    "properties": {
+    "Entity":"Nepal",
+    "Code":"NPL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":133.26111106641983
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.7480821,52.5001698 ]
+    },
+    "properties": {
+    "Entity":"Netherlands",
+    "Code":"NLD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":18.612504280752685
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 172.8344077,-41.5000831 ]
+    },
+    "properties": {
+    "Entity":"New Zealand",
+    "Code":"NZL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":8.598756880012333
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.2936911,12.6090157 ]
+    },
+    "properties": {
+    "Entity":"Nicaragua",
+    "Code":"NIC",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":33.43893638008532
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.3238432,17.7356214 ]
+    },
+    "properties": {
+    "Entity":"Niger",
+    "Code":"NER",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":138.46776300076368
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 7.9999721,9.6000359 ]
+    },
+    "properties": {
+    "Entity":"Nigeria",
+    "Code":"NGA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":81.22147297940873
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 127.0870417,40.3736611 ]
+    },
+    "properties": {
+    "Entity":"North Korea",
+    "Code":"PRK",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":140.4386936637694
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.0999715,60.5000209 ]
+    },
+    "properties": {
+    "Entity":"Norway",
+    "Code":"NOR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":10.888941039349435
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 57.0036901,21.0000287 ]
+    },
+    "properties": {
+    "Entity":"Oman",
+    "Code":"OMN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":53.699089258385115
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 71.247499,30.3308401 ]
+    },
+    "properties": {
+    "Entity":"Pakistan",
+    "Code":"PAK",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":123.21548005051204
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.1308434,8.559559 ]
+    },
+    "properties": {
+    "Entity":"Panama",
+    "Code":"PAN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":21.312229370981058
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.2489081,-5.6816069 ]
+    },
+    "properties": {
+    "Entity":"Papua New Guinea",
+    "Code":"PNG",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":245.29640397227243
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -58.1693445,-23.3165935 ]
+    },
+    "properties": {
+    "Entity":"Paraguay",
+    "Code":"PRY",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":41.98531211229416
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.0458515,-6.8699697 ]
+    },
+    "properties": {
+    "Entity":"Peru",
+    "Code":"PER",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":30.145899172385008
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 122.7312101,12.7503486 ]
+    },
+    "properties": {
+    "Entity":"Philippines",
+    "Code":"PHL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":106.87248335051554
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.134422,52.215933 ]
+    },
+    "properties": {
+    "Entity":"Poland",
+    "Code":"POL",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":34.26669113638126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.8896263,40.0332629 ]
+    },
+    "properties": {
+    "Entity":"Portugal",
+    "Code":"PRT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":15.49125211039693
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 51.2295295,25.3336984 ]
+    },
+    "properties": {
+    "Entity":"Qatar",
+    "Code":"QAT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":61.793882945014076
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.6859225,45.9852129 ]
+    },
+    "properties": {
+    "Entity":"Romania",
+    "Code":"ROU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":40.416006134925496
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.7453061,64.6863136 ]
+    },
+    "properties": {
+    "Entity":"Russia",
+    "Code":"RUS",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":42.73102727671296
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.0644358,-1.9646631 ]
+    },
+    "properties": {
+    "Entity":"Rwanda",
+    "Code":"RWA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":97.08200323569254
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.975036,13.8250489 ]
+    },
+    "properties": {
+    "Entity":"Saint Lucia",
+    "Code":"LCA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":39.21108794192493
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -61.2765569,12.90447 ]
+    },
+    "properties": {
+    "Entity":"Saint Vincent and the Grenadines",
+    "Code":"VCT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":48.67290215956563
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -172.1200508,-13.7693895 ]
+    },
+    "properties": {
+    "Entity":"Samoa",
+    "Code":"WSM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":76.83415607894658
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.9648718,0.8875498 ]
+    },
+    "properties": {
+    "Entity":"Sao Tome and Principe",
+    "Code":"STP",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":110.08124488937102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 42.3528328,25.6242618 ]
+    },
+    "properties": {
+    "Entity":"Saudi Arabia",
+    "Code":"SAU",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":64.07581882776527
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -14.4529612,14.4750607 ]
+    },
+    "properties": {
+    "Entity":"Senegal",
+    "Code":"SEN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":106.05521182020519
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 20.55144,44.1534121 ]
+    },
+    "properties": {
+    "Entity":"Serbia",
+    "Code":"SRB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":62.57853348270601
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 55.4540146,-4.6574977 ]
+    },
+    "properties": {
+    "Entity":"Seychelles",
+    "Code":"SYC",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":42.32630251704251
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -11.8400269,8.6400349 ]
+    },
+    "properties": {
+    "Entity":"Sierra Leone",
+    "Code":"SLE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":149.59833720319767
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8194992,1.357107 ]
+    },
+    "properties": {
+    "Entity":"Singapore",
+    "Code":"SGP",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":19.980127647036646
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.4528646,48.7411522 ]
+    },
+    "properties": {
+    "Entity":"Slovakia",
+    "Code":"SVK",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":35.36190176779609
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.4808369,45.8133113 ]
+    },
+    "properties": {
+    "Entity":"Slovenia",
+    "Code":"SVN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":19.72328919282849
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 159.10710973724628,-8.7053941 ]
+    },
+    "properties": {
+    "Entity":"Solomon Islands",
+    "Code":"SLB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":187.2542829404484
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 49.083416,8.3676771 ]
+    },
+    "properties": {
+    "Entity":"Somalia",
+    "Code":"SOM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":165.82858222804225
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.991639,-28.8166236 ]
+    },
+    "properties": {
+    "Entity":"South Africa",
+    "Code":"ZAF",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":57.853890015715216
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 127.6961188,36.638392 ]
+    },
+    "properties": {
+    "Entity":"South Korea",
+    "Code":"KOR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":21.69790198713537
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.6667897,7.8699431 ]
+    },
+    "properties": {
+    "Entity":"South Sudan",
+    "Code":"SSD",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":156.1654698833523
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.8380649,39.3262345 ]
+    },
+    "properties": {
+    "Entity":"Spain",
+    "Code":"ESP",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":14.481292760208191
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 80.7137847,7.5554942 ]
+    },
+    "properties": {
+    "Entity":"Sri Lanka",
+    "Code":"LKA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":38.46263658418249
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.4917691,14.5844444 ]
+    },
+    "properties": {
+    "Entity":"Sudan",
+    "Code":"SDN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":95.70386241591243
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.0771187,4.1413025 ]
+    },
+    "properties": {
+    "Entity":"Suriname",
+    "Code":"SUR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":48.714428646444254
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.3991317,-26.5624806 ]
+    },
+    "properties": {
+    "Entity":"Swaziland",
+    "Code":"SWZ",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":106.34176901707583
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.5208584,59.6749712 ]
+    },
+    "properties": {
+    "Entity":"Sweden",
+    "Code":"SWE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":9.395303079970224
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2319736,46.7985624 ]
+    },
+    "properties": {
+    "Entity":"Switzerland",
+    "Code":"CHE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":11.705171652358956
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 39.0494106,34.6401861 ]
+    },
+    "properties": {
+    "Entity":"Syria",
+    "Code":"SYR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":64.22641351172673
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 120.9820179,23.9739374 ]
+    },
+    "properties": {
+    "Entity":"Taiwan",
+    "Code":"TWN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.74411355504219
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 70.8156541,38.6281733 ]
+    },
+    "properties": {
+    "Entity":"Tajikistan",
+    "Code":"TJK",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":94.29643742673285
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.7878438,-6.5247123 ]
+    },
+    "properties": {
+    "Entity":"Tanzania",
+    "Code":"TZA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":96.53732288410468
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.83273,14.8971921 ]
+    },
+    "properties": {
+    "Entity":"Thailand",
+    "Code":"THA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":32.81342263200955
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.0199765,8.7800265 ]
+    },
+    "properties": {
+    "Entity":"Togo",
+    "Code":"TGO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":115.22943381323176
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -175.2026424,-19.9160819 ]
+    },
+    "properties": {
+    "Entity":"Tonga",
+    "Code":"TON",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":70.72940437136224
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -60.9821067,10.8677845 ]
+    },
+    "properties": {
+    "Entity":"Trinidad and Tobago",
+    "Code":"TTO",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":51.808704909470634
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.400138,33.8439408 ]
+    },
+    "properties": {
+    "Entity":"Tunisia",
+    "Code":"TUN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":51.6134134952881
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.9249653,38.9597594 ]
+    },
+    "properties": {
+    "Entity":"Turkey",
+    "Code":"TUR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":46.77557879410172
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 59.3924609,39.3763807 ]
+    },
+    "properties": {
+    "Entity":"Turkmenistan",
+    "Code":"TKM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":67.29758185900461
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 32.2166578,1.5333554 ]
+    },
+    "properties": {
+    "Entity":"Uganda",
+    "Code":"UGA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":93.71754318661084
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.2718321,49.4871968 ]
+    },
+    "properties": {
+    "Entity":"Ukraine",
+    "Code":"UKR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":63.88562435228056
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.9994829,24.0002488 ]
+    },
+    "properties": {
+    "Entity":"United Arab Emirates",
+    "Code":"ARE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":77.84550799288915
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.2765753,54.7023545 ]
+    },
+    "properties": {
+    "Entity":"United Kingdom",
+    "Code":"GBR",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":17.783700150135274
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.4458825,39.7837304 ]
+    },
+    "properties": {
+    "Entity":"United States",
+    "Code":"USA",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":18.825145673515728
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -56.0201525,-32.8755548 ]
+    },
+    "properties": {
+    "Entity":"Uruguay",
+    "Code":"URY",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":20.401974704797812
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 63.9528098,41.32373 ]
+    },
+    "properties": {
+    "Entity":"Uzbekistan",
+    "Code":"UZB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":105.0869241795173
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 168.1069154,-16.5255069 ]
+    },
+    "properties": {
+    "Entity":"Vanuatu",
+    "Code":"VUT",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":139.65072868617003
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.1109318,8.0018709 ]
+    },
+    "properties": {
+    "Entity":"Venezuela",
+    "Code":"VEN",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":34.74692209399745
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 108.4265113,13.2904027 ]
+    },
+    "properties": {
+    "Entity":"Vietnam",
+    "Code":"VNM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":60.31753329796778
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 47.8915271,16.3471243 ]
+    },
+    "properties": {
+    "Entity":"Yemen",
+    "Code":"YEM",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":96.50135104729175
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 27.5599164,-14.5186239 ]
+    },
+    "properties": {
+    "Entity":"Zambia",
+    "Code":"ZMB",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":98.86996277703714
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 29.7468414,-18.4554963 ]
+    },
+    "properties": {
+    "Entity":"Zimbabwe",
+    "Code":"ZWE",
+    "Year":2017,
+    "Deaths - Air pollution - Sex: Both - Age: Age-standardized (Rate)":125.02884259285017
+    }
+  }
+]
+}

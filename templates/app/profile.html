@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="card profile-card container main-content" style="width: 100%">
+    <div class="card-body">
+      <h3 class="card-title">Your Profile</h3>
+      <h5>Username: <span class="profile-info-name">{{user.username}}</span></h2>
+        <h5>Email: <span class="profile-info-name">{{user.email}}</span></h5>
+        {% if user.profile.donator %}
+            <h5>You are a donator, here is you donation details</h5>
+            {% for donation in user.donation_set.all %}
+                <ul>
+                    <li>You made {{donation.amount}}$ from {{donation.city}} on {{donation.created_at}}</li>
+                </ul>
+            {% endfor %}
+            <hr />
+        {% endif %}
+        {% if user.profile.planter %}
+            <h5>You are a Planter, here is you plantation details</h5>
+            {% for plantation in user.plantation_set.all %}
+                <ul>
+                    <li>You made a request to plant at {{plantation.city}} on {{plantation.created_at}}</li>
+                </ul>
+            {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+    </div>
+{% endblock content %}

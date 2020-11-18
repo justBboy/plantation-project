@@ -1,0 +1,286 @@
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.3);
+    background: #111;
+    color: #fff;
+}
+
+.navbar-nav > .nav-item > .nav-link{
+    transition: all 0.2s ease-in;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover{
+    opacity: 0.8;
+}
+
+.bg-link{
+    transition: all 0.2s ease-in;
+}
+
+.bg-link:hover{
+    background-color: #efefef;
+    color: #000 !important;
+}
+
+.donate-link{
+    background-color: rgba(250, 40, 75, 0.959);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.plant-link{
+    background-color: rgb(52, 236, 52);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 572px) {
+    .donate-link{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .nav-link{
+        width: 100%;
+        text-align: center;
+        margin: 4px 0;
+    }
+    
+}
+
+.header{
+    background-image: url('../assets/teemu-paananen-OOE4xAnBhKo-unsplash-min\ \(1\).jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.why-trees-header{
+    background-image: url('../assets/why-trees-bg-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.header > h2, .why-trees-header > h2{
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.content{
+    width: 100%;
+    flex: 1;
+}
+
+.dataSection{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.dataSection > img{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataSection > p{
+    width: 80vw;
+}
+
+.dataSection__research{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.dataSection__research > img{
+    width: 100%;
+    height: 500px;
+}
+
+.dataSection__researches{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.impactSection{
+    overflow-x: hidden;
+    background-color: #f2a104
+}
+
+.impactSection > div{
+    display: flex;
+}
+
+.impactSection__flex{
+    flex: 0.5;
+}
+
+.impactSection__flex > h2{
+    border-bottom: 1px solid #ddd;
+}
+
+.border-right{
+    border-right: 1px solid #111;
+}
+
+.impactSection__flex > div{
+    display: flex;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-links > ul > li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-links .fa{
+    font-size: larger !important;
+}
+
+.readySection a{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #ddd;
+}
+
+@media screen and (max-width: 730px){
+    .header__right{
+        display: none;
+    }
+    .header__left{
+        flex: 1;
+        height: 100%;
+    }
+    .dataSection__researches{
+        flex-direction: column;
+    }
+    .dataSection__research{
+        flex: 1;
+        width: 100%;
+    }
+    .impactSection > div{
+        flex-direction: column;
+        flex: 1
+    }
+}
+
+.login-container{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container form{
+    margin: auto;
+}
+
+.login-container > form > label{
+    color: gray;
+}
+.login-container > form > input{
+    display: block;
+}
+
+.helptext{
+    display: none;
+}
+
+
+.map-container{
+    width: 100%;
+    height: 100%;
+}
+
+.main-content{
+    margin-top: 80px;
+}
+
+.max-height{
+    height: 500px;
+    overflow: hidden;
+}
+
+.absolute-gap{
+    display: absolute;
+    top: 20;
+}
+
+.chartsSection__charts{
+    width: 100%;
+    max-height: 350px;
+    padding: 10px;
+}
+
+.no-display{
+    display: none;
+}
+
+.scroll{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.profile-card{
+    box-shadow: 1px 5px 3px 0 #000;
+}
+
+.howSection{
+    background-color: #72a2c0;
+    border-radius: 5px;
+    width: 100%;
+    overflow-x: hidden;
+    color: #ddd;
+    padding: 50px;
+}
+
+.how-card p{
+    text-align: left;
+}
+
+.how-card{
+    height: 400px !important;
+    overflow-y: scroll;
+    color: #111;
+    margin: 0 40px;
+}
