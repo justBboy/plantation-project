@@ -59,7 +59,7 @@ body{
 }
 
 .header{
-    background-image: url('static/assets/teemu-paananen-OOE4xAnBhKo-unsplash-min\ \(1\).jpg');
+    background-image: url('/static/assets/teemu-paananen-OOE4xAnBhKo-unsplash-min\ \(1\).jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ body{
 }
 
 .why-trees-header{
-    background-image: url('static/assets/why-trees-bg-min.jpg');
+    background-image: url('/static/assets/why-trees-bg-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
