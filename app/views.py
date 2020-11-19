@@ -8,7 +8,6 @@ from django.http import HttpResponseRedirect
 def index(request):
     return render(request, 'app/home.html')
 
-
 def signup_view(request):
     form = SignUpForm(request.POST or None)
     if form.is_valid():
