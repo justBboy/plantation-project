@@ -10,6 +10,14 @@ class SignUpForm(UserCreationForm):
         model = User
         fields = ('username', 'email', 'planter', 'donator', 'password1', 'password2')
 
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=128, widget=forms.TextInput(attrs={
+        'class': 'form-control'
+    }))
+    password = forms.CharField(max_length=128, widget=forms.PasswordInput(attrs={
+        'class': 'form-control'
+    }))
+
 class PlantForm(forms.Form):
     city = forms.CharField(max_length=128, widget=forms.TextInput(attrs={'class': 'form-control', 'id': 'city-name'}))
 

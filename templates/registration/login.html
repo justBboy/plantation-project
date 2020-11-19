@@ -2,20 +2,15 @@
 
 {% block content %}
     <div class="login-container container">
-        <div>
+        <div style="width: 50vw;">
 
-            {% if form.errors %}
+            {% if error %}
                 <div class="login-error">
                     <h3>There was an error with your username or password</h3>
                 </div>
             {% endif %}
-            {% if next %}
-                {% if user.is_authenticated %}
-                    <p>Your account doesn't have access to this page</p>
-                {% endif %}
-            {% endif %}
         
-            <form method="post" action="{% url 'login' %}">
+            <form method="post" action="./?next={{ redirect_to }}">
                 {% csrf_token %}
                 <div class="form-group">
                     <label>{{ form.username.label_tag }} </label>
@@ -25,9 +20,7 @@
                     <label>{{ form.password.label_tag }} </label>
                     {{ form.password }}
                 </div>
-                <button class="btn btn-primary" type="submit" name="action">Submit
-                  </button>
-                  <input type="hidden" name='next' value="{{next}}">
+               <input type="submit" class="btn btn-primary" /> 
             </form>    
             <p><a href="{% url 'signup' %}">Rather SignUp</a></p>
         </div>

@@ -1,5 +1,7 @@
 from django.urls import path;
 from . import views
+from django.contrib.auth.views import LogoutView
+from django.conf import settings
 
 urlpatterns = [
     path('', views.index, name="home"),
@@ -7,5 +9,7 @@ urlpatterns = [
     path('donate/', views.donate_view, name='donate'),
     path('plant/', views.plant_view, name='plant'),
     path('profile/', views.profile_view, name='profile'),
-    path('why_trees/', views.why_trees_view, name="why-trees")
+    path('why_trees/', views.why_trees_view, name="why-trees"),
+    path('login/', views.login_view, name='login'),
+    path('logout/', LogoutView.as_view(), {'next_page': settings.LOGOUT_REDIRECT_URL}, name='logout')
 ]

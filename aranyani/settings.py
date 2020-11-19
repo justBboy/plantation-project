@@ -25,7 +25,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'jf-vjdx8-)e$flb2qa!#!6%(n=i+cl$53p-yjc3jfk(8g9^3_g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -72,7 +72,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'aranyani.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -102,11 +101,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LOGIN_REDIRECT_URL = '/'
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
+
+LOGIN_URL = '/login/'
+LOGOUT_REDIRECT_URL = '/'
 
 LANGUAGE_CODE = 'en-us'
 
@@ -117,7 +116,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/

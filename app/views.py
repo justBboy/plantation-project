@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login, authenticate
-from .forms import SignUpForm, DonateForm, PlantForm
+from .forms import SignUpForm, DonateForm, PlantForm, LoginForm
 from .models import Donation, Plantation
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect
 
 def index(request):
     return render(request, 'app/home.html')
@@ -23,6 +24,23 @@ def signup_view(request):
         return redirect('home')
     
     return render(request, 'registration/signUp.html', {'form': form})
+
+def login_view(request):
+    form = LoginForm(request.POST or None)
+    redirect_to = request.GET.get('next', '')
+    if request.POST:
+        if form.is_valid():
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            user = authenticate(username=username, password=password)
+            if user:
+                login(request, user)
+                nextPage = request.GET.get('next', '')
+                return HttpResponseRedirect(nextPage)
+            else:
+                error = True
+                return render(request, 'registration/login.html', {'form': form, 'error': error, 'redirect_to': redirect_to})
+    return render(request, 'registration/login.html', {'form': form, 'redirect_to': redirect_to})
 
 @login_required
 def donate_view(request):

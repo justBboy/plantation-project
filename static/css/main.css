@@ -220,13 +220,17 @@ footer{
     margin: auto;
 }
 
-.login-container > form > label{
+.login-container > div > form > label{
     color: gray;
 }
-.login-container > form > input{
+.login-container > div > form > input{
     display: block;
+    width: 100%;
 }
-
+.login-container > div > form > input[type='checkbox']{
+    width: 50px;
+    height: 50px;
+}
 .helptext{
     display: none;
 }

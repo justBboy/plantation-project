@@ -2,8 +2,9 @@
 
 {% block content %}
 <div class="card profile-card container main-content" style="width: 100%">
-    <div class="card-body">
+    <div class="card-body" style="position: relative;">
       <h3 class="card-title">Your Profile</h3>
+      <a class="btn btn-secondary" href="{% url 'logout' %}" style="position: absolute; right: 0; top: 0;">Logout</a>
       <h5>Username: <span class="profile-info-name">{{user.username}}</span></h2>
         <h5>Email: <span class="profile-info-name">{{user.email}}</span></h5>
         {% if user.profile.donator %}
