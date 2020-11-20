@@ -90,6 +90,7 @@ body{
     font-size: 5rem;
     margin-top: -10vh;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 4px 2px #ddd;
 }
 
 .content{
@@ -287,27 +288,51 @@ footer{
 }
 
 .howSection{
-    background-color: #72a2c0;
     border-radius: 5px;
     width: 100%;
     overflow-x: hidden;
-    color: #ddd;
+    color: #111;
     padding: 50px;
+}
+
+.underline{
+    width: 40px;
+    height: 8px;
+    border-radius: 5px
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
 }
 
 .how-card p{
     text-align: left;
 }
 
+.funders-card{
+    background-color: rgba(114, 200, 250, 0.4);
+}
+
+.donators-card{
+ background-color: rgba(114, 200, 250, 0.2);
+}
+.planters-card{
+ background-color: rgba(114, 162, 192, 0.2);
+}
 .how-card{
-    height: 400px !important;
-    overflow-y: scroll;
+    max-height: 400px !important;
     color: #111;
-     margin: auto 5px;
-     box-shadow: 3px 5px 3px 1px #000;
+     margin: 0 5px;
+     overflow-y: scroll;
+     flex: 1;
 }
 
 .how-row{
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
