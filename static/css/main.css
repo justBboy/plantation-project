@@ -338,7 +338,7 @@ footer{
 }
 
 .whySection__point > div{
-    height: 300px;
+    min-height: 300px;
 }
 
 .whySection__point > div > img{
