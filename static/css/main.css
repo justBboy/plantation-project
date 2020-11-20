@@ -86,8 +86,8 @@ body{
 }
 
 .header > h2, .why-trees-header > h2{
-    font-weight: bolder;
-    font-size: 3.5rem;
+    font-weight: 900;
+    font-size: 4rem;
     margin-top: -10vh;
     font-family: 'Montserrat', sans-serif;
 }
