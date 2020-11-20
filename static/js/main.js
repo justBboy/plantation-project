@@ -464,6 +464,15 @@ function showCurrentPosition() {
 function fetchMap(e) {
   e.preventDefault();
   let cityName = document.getElementById("city-name").value;
+  fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${cityName}.json?access_token=pk.eyJ1IjoianVzdGJib3kiLCJhIjoiY2tobXAxZHQzMDNncDJxcG4yM2pvbmI1MCJ9.EI4dzn4N7UaI9x7ITkNK0w`) 
+  .then(res => res.json())
+  .then(data => {
+    map.flyTo({
+      center: [data.features[0].center[0], data.features[0].center[1]],
+      essential: true,
+      zoom: 10
+    })
+  })
 }
 
 function showDeathRate(){
@@ -626,7 +635,7 @@ function queryPlantSellerLocation(){
   } 
   async function getPlantSellers(position){
     console.log(position)
-    let countryReq = await fetch(`http://api.mapbox.com/geocoding/v5/mapbox.places/${position.coords.longitude},${position.coords.latitude}.json?access_token=pk.eyJ1IjoianVzdGJib3kiLCJhIjoiY2tobXAxZHQzMDNncDJxcG4yM2pvbmI1MCJ9.EI4dzn4N7UaI9x7ITkNK0w&types=poi&proximity&types=country`)
+    let countryReq = await fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${position.coords.longitude},${position.coords.latitude}.json?access_token=pk.eyJ1IjoianVzdGJib3kiLCJhIjoiY2tobXAxZHQzMDNncDJxcG4yM2pvbmI1MCJ9.EI4dzn4N7UaI9x7ITkNK0w&types=country`)
     let countryData = await countryReq.json();
     let countryShortCode = countryData.features[0].properties.short_code
   fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/plant%20seller.json?access_token=pk.eyJ1IjoianVzdGJib3kiLCJhIjoiY2tobXAxZHQzMDNncDJxcG4yM2pvbmI1MCJ9.EI4dzn4N7UaI9x7ITkNK0w&types=poi&proximity=${position.coords.latitude}, ${position.coords.longitude}&country=${countryShortCode}`)

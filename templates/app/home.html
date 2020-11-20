@@ -8,29 +8,36 @@
 
   <div class="container content">
     <section class="dataSection">
-      <h2 data-aos="zoom-in" class="dataSection__header text-center mt-5">
+      <h2 data-aos="zoom-in" data-aos-duration="500" class="dataSection__header text-center mt-5">
         Data Visualization
       </h2>
-      <img
-        data-aos="flip-up"
-        src="https://climate.nasa.gov/system/resources/detail_files/24_co2-graph-061219-768px.jpg"
-        alt="the relentless rise of carbon dioxide"
-      />
-      <h3 data-aos="zoom-in">The relentless rise of carbon dioxide</h3>
-      <p>
-        Ancient air bubbles trapped in ice enable us to step back in time and
-        see what Earth's atmosphere, and climate, were like in the distant
-        past. They tell us that levels of carbon dioxide (CO2) in the
-        atmosphere are higher than they have been at any time in the past
-        400,000 years. During ice ages, CO2 levels were around 200 parts per
-        million (ppm), and during the warmer interglacial periods, they
-        hovered around 280 ppm (see fluctuations in the graph). In 2013, CO2
-        levels surpassed 400 ppm for the first time in recorded history.
-        <a
-          href="https://climate.nasa.gov/climate_resources/24/graphic-the-relentless-rise-of-carbon-dioxide/"
-          >read more</a
-        >
-      </p>
+      <div class="underline green" data-aos="zoom-in" data-aos-delay="500" style="margin-left: -310px;"></div>
+      <div class="row mt-5 mb-5">
+        <img
+          data-aos="flip-up"
+          src="https://climate.nasa.gov/system/resources/detail_files/24_co2-graph-061219-768px.jpg"
+          alt="the relentless rise of carbon dioxide"
+          class="col-md-5"
+        />
+        <div class="col-md-7">
+          <h3 data-aos="zoom-in" class="mt-2">The relentless rise of carbon dioxide</h3>
+          <div class="underline bg-dark mb-2"></div>
+          <p>
+            Ancient air bubbles trapped in ice enable us to step back in time and
+            see what Earth's atmosphere, and climate, were like in the distant
+            past. They tell us that levels of carbon dioxide (CO2) in the
+            atmosphere are higher than they have been at any time in the past
+            400,000 years. During ice ages, CO2 levels were around 200 parts per
+            million (ppm), and during the warmer interglacial periods, they
+            hovered around 280 ppm (see fluctuations in the graph). In 2013, CO2
+            levels surpassed 400 ppm for the first time in recorded history.
+            <a
+              href="https://climate.nasa.gov/climate_resources/24/graphic-the-relentless-rise-of-carbon-dioxide/"
+              >read more</a
+            >
+          </p>
+        </div>
+      </div>
 
       <div class="dataSection__researches">
         <div data-aos="fade-right" class="dataSection__research">
@@ -38,7 +45,8 @@
             src="{% static 'assets/3.jpg' %}"
             alt=""
           />
-          <h3>Carbon dioxide hits new high</h3>
+          <h3 class="mt-3">Carbon dioxide hits new high</h3>
+          <div class="underline bg-dark mb-3"></div>
           <p>
             Imagine there are no people. Imagine a planet where the sea level
             is about five to 40 meters (16 to 131 feet) higher than normal.
@@ -54,7 +62,8 @@
             src="{% static 'assets/1.jpg' %}"
             alt=""
           />
-          <h3>Carbon dioxide</h3>
+          <h3 class="mt-3">Carbon dioxide</h3>
+          <div class="underline bg-dark mb-3"></div>
           <p>
             This time series shows global changes in the concentration and
             distribution of carbon dioxide since 2002 at an altitude range of
@@ -67,7 +76,10 @@
     </section>
     <!-- impact section -->
     <section class="impactSection text-center mt-5">
-      <h2 data-aos="zoom-in">Our Impact</h2>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <h2 data-aos="zoom-in" data-aos-duration="500">Our Impact</h2>
+        <div data-aos="zoom-in" data-aos-delay="500" class="underline green" style="margin-left: -150px;"></div>
+      </div>
       <h5 data-aos="zoom-in">These are what we aim to impact on</h5>
       <div>
         <div
@@ -112,7 +124,10 @@ ecosystem.
     <!-- end impact section -->
     <!-- our team section -->
     <section class="teamSection text-center mt-5">
-      <h2>Our Team</h2>
+      <div class="mb-5" style="display: flex; flex-direction: column; align-items: center;">
+        <h2 data-aos="zoom-in" data-aos-duration="500">Our Team</h2>
+        <div class="underline green" data-aos="zoom-in" data-aos-delay="500" style="margin-left: -120px;"></div>
+      </div>
       <div class="row">
         <div data-aos="flip-up" class="teamSection__user col-md-4">
           <img
@@ -120,7 +135,7 @@ ecosystem.
             alt=""
             width="100%"
             height="50%"
-            style="border-radius: 50%;"
+            style="border-radius: 70%;"
           />
           <h3>Shreyas Kalikar</h3>
           <h4>Information Technology</h4>
@@ -188,7 +203,7 @@ ecosystem.
           </div>
         </div>
         <div class="row" style="width: 100%;margin-left: 1px;">
-          <div class="card planters-card col-md-6 how-card" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
+          <div class="card planters-card col-lg-12 col-md-6 how-card" data-aos="fade-right" data-aos-delay="500" data-aos-duration="500">
             <div class="card-body">
               <h3>FOR PLANTER</h3>
               <div class="underline green"></div>
@@ -197,7 +212,7 @@ ecosystem.
                 by filling an application that vouches for your donation, and the other terms stand the same!</p>
             </div>
           </div>
-          <div class="card donators-card col-md-6 how-card" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="500">
+          <div class="card donators-card col-md-12 col-lg-6 how-card" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="500">
             <div class="card-body">
               <h3>FOR DONATOR</h3>
               <div class="underline red"></div>
