@@ -1,14 +1,37 @@
 {% extends 'layout.html' %}
+{% load static %}
 
 {% block content %}
     <div class="why-trees-header">
         <h2>Why Trees</h2>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-        </div>
+        <div class="whySection">
+            <h2 class="text-center mt-5 mb-5">REASONS WHY WE NEED TO PLANT TRESS</h2>
+            <div class="whySection__point">
+                <h2 class="text-center mt-2 mb-3">FOOD SECURITY</h2>
+                <div class="row mb-5">
+                    <img width="100%" height="100%" src="{% static 'assets/Mango_Tree_SriLanka.jpg' %}" alt="" class="col-md-6">
+                    <p class="col-md-6">For every tree we plant, it will provide 700 rupees worth of food and nutrition annually (true cost of a meal being 13 rupees). A dead tree would result in an output of 50000 rupees, while a living tree would have an all-in-all net outcome of 23 lakh rupees in total, both over a period of about 50 years.</p>
+                </div>
+              </div>
+                <hr class="bg-dark" />
+            <div class="whySection__point">
+                <h2 class="text-center mt-5 mb-3">PREVENT DEFORESTATION</h2>
+                <div class="row mb-5" style="flex-direction: row-reverse;">
+                    <img width="100%" height="100%" src="{% static 'assets/Forest-bathing.jpg' %}" alt="" class="col-md-6">
+                    <p class="col-md-6">According to studies, 40% of India's natural forest cover has been lost in the last 95 years, major factors being mining, agriculture, fishery, and urbanization. The adverse effect of this major loss can be reversed by reforestation, improving the lives of an estimate of 275 million Indians that are dependent..</p>
+                </div>
+              </div>
+                <hr class="bg-dark" />
+            <div class="whySection__point">
+                <h2 class="text-center mt-5 mb-3">ADAPT TO CLIMATE CHANGE</h2>
+                <div class="row mb-5">
+                    <img width="100%" height="100%" src="{% static 'assets/nature.jpg' %}" alt="" class="col-md-6">
+                    <p class="col-md-6">A fully-grown tree encompasses  about upto 48 pounds of carbon annually. Given India's poor Air Quality Index scores, this will be a huge step forward in tackling air pollution. Problems like untimely rains and record setting increasing or decreasing temperature will also be tackled, taking climate change into account.</p>
+                </div>
+              </div>
+                <hr class="bg-dark" />
+          </div>
     </div>
 {% endblock content %}

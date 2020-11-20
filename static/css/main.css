@@ -336,3 +336,11 @@ footer{
     align-items: center;
     overflow-x: hidden;
 }
+
+.whySection__point > div{
+    height: 300px;
+}
+
+.whySection__point > div > img{
+    border-radius: 10px;
+}
