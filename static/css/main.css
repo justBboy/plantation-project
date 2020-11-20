@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 body{
     width: 100vw;
     display: flex;
@@ -86,6 +88,7 @@ body{
     font-weight: bolder;
     font-size: 3.5rem;
     margin-top: -10vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content{
@@ -129,7 +132,8 @@ body{
 .dataSection__header, .impactSection > h2, .teamSection > h2{
     text-transform: uppercase;
     --text-opacity: 1;
-    color: rgba(17,50,89,var(--text-opacity))
+    color: rgba(17,50,89,var(--text-opacity));
+    font-family: 'Montserrat', sans-serif;
 }
 
 .impactSection{
