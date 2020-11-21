@@ -101,15 +101,17 @@ body{
     width: 100%;
     display: grid;
     place-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-.dataSection > img{
+.dataSection > div > img{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
 
-.dataSection > p{
+.dataSection > div > p{
     width: 80vw;
 }
 
@@ -118,6 +120,7 @@ body{
     height: auto;
     padding: 20px;
     overflow: hidden;
+    margin: 80px 0;
 }
 
 .dataSection__research > img{
@@ -138,6 +141,8 @@ body{
 }
 
 .impactSection{
+    margin-top: 80px;
+    margin-bottom: 80px;
     overflow-x: hidden;
     background-color: #f2a3041f
 }
@@ -165,6 +170,14 @@ body{
 
 .impactSection__flex > div{
     display: flex;
+    margin: 50px;
+    background: #ddd;
+}
+
+.teamSection{
+    margin-top: 100px 0;
+    padding: 40px;
+    height: 600px;
 }
 
 .social-links{
@@ -291,7 +304,7 @@ footer{
     width: 100%;
     overflow-x: hidden;
     color: #111;
-    padding: 50px;
+    padding: 10px;
 }
 
 .underline{
