@@ -101,8 +101,8 @@ body{
     width: 100%;
     display: grid;
     place-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 .dataSection > div > img{
@@ -141,43 +141,63 @@ body{
 }
 
 .impactSection{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     overflow-x: hidden;
     background-color: #f2a3041f
 }
 
-.impactSection > div{
+.impactSection__header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 110);
 }
 
-.impactSection__flex{
-    flex: 0.5;
-}
-
-.impactSection__flex > h2{
-    border-bottom: 1px solid #ddd;
-}
-
-.impactSection__flex p{
-    width: 100%;
+.flex-side{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 400px;
     padding: 10px;
+}
+
+.impactSection__title{
+    text-transform: uppercase;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    line-height: 24px;
+    letter-spacing: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.impactSection__left{
+    background-color: rgba(245, 245, 110, 0.6);
+}
+
+.impactSection__right{
+    background-color: rgba(214, 131, 6, 0.6);
+}
+
+.flex-side > div > div > h3{
+    font-size: 1.4rem;
+}
+
+.flex-side > div > div > p{
+    line-height: 30px;
 }
 
 .border-right{
     border-right: 1px solid #111;
 }
 
-.impactSection__flex > div{
-    display: flex;
-    margin: 50px;
-    background: #ddd;
-}
 
 .teamSection{
-    margin-top: 100px 0;
-    padding: 40px;
-    height: 600px;
+    padding: 60px;
 }
 
 .social-links{
