@@ -15,6 +15,7 @@ body{
 }
 
 .navbar-nav > .nav-item > .nav-link{
+    color: #fff !important;
     transition: all 0.2s ease-in;
 }
 
@@ -27,8 +28,8 @@ body{
 }
 
 .bg-link:hover{
-    background-color: #efefef;
-    color: #000 !important;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #333 !important;
 }
 
 .donate-link{
@@ -88,7 +89,6 @@ body{
 .header > h2, .why-trees-header > h2{
     font-weight: 900;
     font-size: 5rem;
-    margin-top: -10vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -161,7 +161,7 @@ body{
     align-items: center;
     margin: auto;
     min-height: 400px;
-    padding: 10px;
+    padding: 40px;
 }
 
 .impactSection__title{
@@ -329,7 +329,7 @@ footer{
 
 .underline{
     width: 40px;
-    height: 8px;
+    height: 5px;
     border-radius: 5px
 }
 
