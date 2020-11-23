@@ -327,17 +327,19 @@ footer{
 
 .map-form-group{
     position: relative;
+    height: 70px;
+    overflow: hidden;
 }
 
 .map-form-group > input{
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 30%;
+    right: 20%;
 }
 
-.map-form-group > label{
-    margin-top: -30px;
+.no-pointer{
+    cursor: default !important;
 }
 
 .no-display{

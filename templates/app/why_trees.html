@@ -1,6 +1,8 @@
 {% extends 'layout.html' %}
 {% load static %}
-
+{% block endscripts %}
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock endscripts %}
 {% block content %}
     <div class="why-trees-header">
         <h2 data-aos="zoom-in">Why Trees</h2>

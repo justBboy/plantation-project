@@ -1,7 +1,8 @@
 {% extends 'layout.html' %}
 {% load static %}
 {% block endscripts %}
-    <script src="{% static 'js/map.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+<script src="{% static 'js/map.js' %}"></script>
 {% endblock endscripts %}
 
 {% block links %} 
@@ -26,14 +27,15 @@
             <hr />
             <div class="showMapDataSection">
                 <h2>Show Map Data</h2>
-                <div class="map-form-group">
-                    <label for="deathRateShow">Show death Rate</label>
+                 <div class="map-form-group">
+                    <label for="deathRateShow" class="btn btn-danger no-pointer">Show death Rate</label>
                     <input type="checkbox" id="death-rate-checkbox">
                 </div>
                 <div class="map-form-group">
-                    <label for="deathRateShow">Show co2 emission Rate</label>
+                    <label for="deathRateShow" class="btn btn-primary no-pointer">Show co2 emission Rate</label>
                     <input type="checkbox" id="c02-emission-rate-checkbox">
                 </div>
+
             </div>
             <hr />
                 <h2>Fill the Planter's form</h2>
