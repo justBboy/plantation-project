@@ -271,6 +271,13 @@ function queryPlantSellerLocation() {
               let storePos = store[1].trim().split(",");
               let storePosLatitude = parseInt(storePos[0]);
               let storePosLongitude = parseInt(storePos[1]);
+              var popup = new mapboxgl.Popup().setText(store[0]).addTo(map);
+              var markers = new mapboxgl.Marker()
+                .setLngLat([storePosLongitude, storePosLatitude])
+                .addTo(map)
+                .setPopup(popup);
+              currentMarkers.push(markers);
+              console.log(currentMarkers)
               if (!currentNearestStoreDifferenceMagnitude) {
                 currentNearestStoreDifferenceMagnitude = getMagnitude(
                   storePosLatitude,
@@ -304,20 +311,11 @@ function queryPlantSellerLocation() {
           currentNearestStoreCoords[1]
         );
         console.log(currentNearestStore);
-        if (currentMarkers !== null) {
-          for (var i = currentMarkers.length - 1; i >= 0; i--) {
-            currentMarkers[i].remove();
-          }
-        }
-        var popup = new mapboxgl.Popup()
-        .setText(currentNearestStore[0])
-        .addTo(map)
-        var markers = new mapboxgl.Marker().setLngLat([currentNearestStoreLongitude, currentNearestStoreLatitude]).addTo(map).setPopup(popup);
-        currentMarkers.push(markers);
+
         map.flyTo({
           center: [currentNearestStoreLongitude, currentNearestStoreLatitude],
           essential: true,
-          zoom: 15,
+          zoom: 8,
         });
       });
   }
