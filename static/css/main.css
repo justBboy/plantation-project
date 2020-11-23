@@ -141,7 +141,7 @@ body{
 }
 
 .impactSection{
-    margin-top: 90px;
+    margin-top: 200px;
     margin-bottom: 90px;
     overflow-x: hidden;
     background-color: #f2a3041f
@@ -323,6 +323,21 @@ footer{
 
 .mapFunctionsSection > button, .showMapDataSection > button{
     margin: 10px 5px;
+}
+
+.map-form-group{
+    position: relative;
+}
+
+.map-form-group > input{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30%;
+}
+
+.map-form-group > label{
+    margin-top: -30px;
 }
 
 .no-display{

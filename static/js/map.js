@@ -11,11 +11,11 @@ document.getElementById("reset-btn").addEventListener("click", () => {
       });
 });
 
-document.getElementById("death-rate-btn").addEventListener("click", () => {
+document.getElementById("death-rate-checkbox").addEventListener("click", () => {
   showDeathRate(map);
 });
 
-document.getElementById("co2-emission-btn").addEventListener("click", () => {
+document.getElementById("c02-emission-rate-checkbox").addEventListener("click", () => {
   showCo2Emission(map);
 });
 
@@ -89,21 +89,19 @@ function fetchMap(e) {
 }
 
 function showDeathRate(){
+    let deathRateChecked = document.getElementById('death-rate-checkbox');
         if (source_added_deathrate){
             console.log('source added')
-          if(!deathRateShown){
-              console.log('visible')
+          if(deathRateChecked.checked){
             map.setLayoutProperty('deathrate', 'visibility', 'visible');
             deathRateShown = true;
           }
           else{
-              console.log('not visible')
             map.setLayoutProperty('deathrate', 'visibility', 'none')
             deathRateShown = false;
           }
         }
       else{
-          console.log('source not added')
         showDeathRateFunc();
         source_added_deathrate = true;
       }
@@ -168,8 +166,9 @@ function showDeathRate(){
     }
     
 function showCo2Emission(){
+    let co2EmissionChecked = document.getElementById('c02-emission-rate-checkbox')
         if (source_added_emission){
-          if(!shownCo2Emission){
+          if(co2EmissionChecked.checked){
             map.setLayoutProperty('pollution', 'visibility', 'visible');
             shownCo2Emission = true;
           }
