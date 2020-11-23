@@ -309,8 +309,10 @@ function queryPlantSellerLocation() {
             currentMarkers[i].remove();
           }
         }
-
-        var markers = new mapboxgl.Marker().setLngLat([currentNearestStoreLongitude, currentNearestStoreLatitude]).addTo(map);
+        var popup = new mapboxgl.Popup()
+        .setText(currentNearestStore[0])
+        .addTo(map)
+        var markers = new mapboxgl.Marker().setLngLat([currentNearestStoreLongitude, currentNearestStoreLatitude]).addTo(map).setPopup(popup);
         currentMarkers.push(markers);
         map.flyTo({
           center: [currentNearestStoreLongitude, currentNearestStoreLatitude],
