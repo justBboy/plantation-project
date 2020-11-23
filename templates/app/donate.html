@@ -1,12 +1,14 @@
 {% extends 'layout.html' %}
 {% load static %}
 
+{% block endscripts %}
+    <script src="{% static 'js/map.js' %}"></script>
+{% endblock endscripts %}
+
 {% block links %} 
 <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
- 
-<link rel="stylesheet" href="{% static 'css/Chart.min.css' %}">
-<script src="{% static 'js/Chart.min.js' %}"></script>
+
 {% endblock links %}
 
 {% block content %}
@@ -14,18 +16,6 @@
     {% if not succeeded %}
         <div class="row max-height">
             <div class="col-md-5 scroll border-right">
-                <div class="chartsSection">
-                    <h2>Graph Data</h2>
-                    <div class="chartsSection__buttons">
-                        <button class="btn btn-primary" id="co2-btn">CO2 Concentration</button>
-                        <button class="btn btn-warning" id="emission-btn">Emission Graph</button>
-                    </div>
-                    <select class="form-control" name="country" id="country-selector" style="display: none;">
-                    </select>
-                    <div class="chartsSection__charts">
-                    </div>
-                </div>
-                <hr />
                 <div class="mapFunctionsSection">
                     <h2>Map Functions</h2>
                     <button id="locate-me-btn" class="btn btn-success">Locate me</button>

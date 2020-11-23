@@ -18,6 +18,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     />
+  <link rel="stylesheet" href="{% static 'css/Chart.min.css' %}">
+  <script src="{% static 'js/Chart.min.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/main.css' %}" />
     {% block links %}
     {% endblock links %}
@@ -104,6 +106,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="{% static 'js/main.js' %}"></script>
+    {% block endscripts %}
+    {% endblock endscripts %}
 </body>
 </html>

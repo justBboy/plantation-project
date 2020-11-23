@@ -191,6 +191,21 @@ body{
     line-height: 30px;
 }
 
+.graphDataSection{
+    margin: 80px 0;
+}
+
+.chartsSection__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.chartsSection__buttons > button{
+    margin: 0 5px;
+}
+
 .border-right{
     border-right: 1px solid #111;
 }
@@ -304,6 +319,10 @@ footer{
     width: 100%;
     max-height: 350px;
     padding: 10px;
+}
+
+.mapFunctionsSection > button, .showMapDataSection > button{
+    margin: 10px 5px;
 }
 
 .no-display{

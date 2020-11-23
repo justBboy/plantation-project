@@ -1,6 +1,10 @@
 {% extends 'layout.html' %}
 {% load static %}
 
+{% block endscripts %}
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock endscripts %}
+
 {% block content %}
 <div class="header">
     <h2 data-aos="zoom-in">ARANYANI</h2>
@@ -65,6 +69,26 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
         </div>
       </div>
     </section>
+    <!-- graph data section -->
+      <section class="graphDataSection">
+        <div class="graphDataSection__header">
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <h2 data-aos="zoom-in" data-aos-duration="500">Graph Data</h2>
+            <div class="underline bg-dark" data-aos="zoom-in" data-aos-delay="500"></div>
+          </div>
+        <div class="chartsSection">
+                    <div class="chartsSection__buttons">
+                        <button class="btn btn-primary" id="co2-btn">CO2 Concentration</button>
+                        <button class="btn btn-warning" id="emission-btn">Emission Graph</button>
+                    </div>
+                    <select class="form-control mt-3 mb-2" name="country" id="country-selector" style="display: none;">
+                    </select>
+                    <div class="chartsSection__charts">
+                    </div>
+                </div>
+        </div>
+      </section>
+    <!-- end graph data section -->
     <!-- impact section -->
     <section class="impactSection text-center">
       <div class="impactSection__header">
