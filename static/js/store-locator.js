@@ -23,6 +23,7 @@ $('#locator-search').on('input', function(e){
     if(stores){
         newStores = stores.filter(store => store[0].toLowerCase().includes(e.target.value.toLowerCase()))
         createStoreList(newStores)
+        addStoreLocationListeners();
     }
 })
 
@@ -46,16 +47,7 @@ fetch(globalFiles.woodstoresFile)
     })
 })
 .then(() => {
-    Array.from(document.querySelectorAll('.store-elem')).forEach(storeElem => storeElem.addEventListener('click', e => {
-        e.preventDefault();
-        let lng = parseFloat(e.target.dataset.storeLongitude);
-        let lat = parseFloat(e.target.dataset.storeLatitude);
-        map.flyTo({
-            center: [lng, lat],
-            essential: true,
-            zoom: 13
-        })
-    }))
+   addStoreLocationListeners(); 
 })
 
 function createStoreList(stores){
@@ -87,6 +79,19 @@ function createStoreList(stores){
                 currentMarkers.push(marker)
     })
     console.dir(currentMarkers)
+}
+
+function addStoreLocationListeners(){
+Array.from(document.querySelectorAll('.store-elem')).forEach(storeElem => storeElem.addEventListener('click', e => {
+        e.preventDefault();
+        let lng = parseFloat(e.target.dataset.storeLongitude);
+        let lat = parseFloat(e.target.dataset.storeLatitude);
+        map.flyTo({
+            center: [lng, lat],
+            essential: true,
+            zoom: 13
+        })
+    }))
 }
 
 /* 
