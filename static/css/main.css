@@ -412,3 +412,32 @@ footer{
 .whySection__point > div > img{
     border-radius: 50%
 }
+
+.store-locator-container{
+    width: 100%;
+    height: 90vh;
+}
+
+.sidebar-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locator-search{
+    outline-width: 0;
+    margin: 10px 0;
+}
+
+.list-group{
+    width: 100%;
+}
+
+.marker{
+    background-image: url('/static/assets/plant-pot.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}

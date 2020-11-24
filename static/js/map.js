@@ -21,9 +21,6 @@ document
     showCo2Emission(map);
   });
 
-document
-  .getElementById("nearby-btn")
-  .addEventListener("click", queryPlantSellerLocation);
 
 let deathRateShown = false;
 let shownCo2Emission = false;
@@ -251,84 +248,4 @@ function showCo2EmissionFunc() {
     },
     "waterway-label"
   );
-}
-
-function queryPlantSellerLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(getPlantSellers);
-  }
-  function getPlantSellers(position) {
-    let currentNearestStore;
-    let currentNearestStoreDifferenceMagnitude;
-    let userLongitude = position.coords.longitude;
-    let userLatitude = position.coords.latitude;
-    fetch(globalFiles.woodstoresFile)
-      .then((res) => res.text())
-      .then((data) => {
-        Papa.parse(data, {
-          complete: (result) => {
-            result.data.slice(1).forEach((store) => {
-              let storePos = store[1].trim().split(",");
-              let storePosLatitude = parseInt(storePos[0]);
-              let storePosLongitude = parseInt(storePos[1]);
-              var popup = new mapboxgl.Popup().setText(store[0]).addTo(map);
-              var markers = new mapboxgl.Marker()
-                .setLngLat([storePosLongitude, storePosLatitude])
-                .addTo(map)
-                .setPopup(popup);
-              currentMarkers.push(markers);
-              console.log(currentMarkers)
-              if (!currentNearestStoreDifferenceMagnitude) {
-                currentNearestStoreDifferenceMagnitude = getMagnitude(
-                  storePosLatitude,
-                  storePosLongitude
-                );
-                currentNearestStore = store;
-              } else {
-                newCurrentNearestStoreDifferenceMagnitude = Math.min(
-                  getMagnitude(storePosLatitude, storePosLongitude),
-                  getMagnitude(userLatitude, userLongitude)
-                );
-                if (
-                  newCurrentNearestStoreDifferenceMagnitude !=
-                  currentNearestStoreDifferenceMagnitude
-                ) {
-                  currentNearestStore = store;
-                }
-              }
-            });
-          },
-        });
-      })
-      .then(() => {
-        let currentNearestStoreCoords = currentNearestStore[1]
-          .trim()
-          .split(",");
-        let currentNearestStoreLatitude = parseInt(
-          currentNearestStoreCoords[0]
-        );
-        let currentNearestStoreLongitude = parseInt(
-          currentNearestStoreCoords[1]
-        );
-        console.log(currentNearestStore);
-
-        map.flyTo({
-          center: [currentNearestStoreLongitude, currentNearestStoreLatitude],
-          essential: true,
-          zoom: 8,
-        });
-      });
-  }
-}
-
-function checkNearness(x1, y1, x2, y2) {
-  return Math.sqrt(
-    Math.abs(Math.pow(x2, 2)) -
-      Math.abs(Math.pow(x1, 2)) +
-      (Math.abs(Math.pow(y2, 2)) - Math.abs(Math.pow(y1, 2)))
-  );
-}
-
-function getMagnitude(x, y) {
-  return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 }

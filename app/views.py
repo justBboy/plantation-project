@@ -92,3 +92,6 @@ def profile_view(request):
 
 def why_trees_view(request):
     return render(request, 'app/why_trees.html')
+
+def store_locator_view(request):
+    return render(request, 'app/store-locator.html')
