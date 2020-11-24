@@ -3,6 +3,7 @@
 {% block endscripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
 <script src="{% static 'js/map.js' %}"></script>
+<script src="{% static 'js/planted-cert.js' %}"></script>
 {% endblock endscripts %}
 
 {% block links %} 
@@ -54,8 +55,10 @@
                 </div>
         </div>
         {% else %}
-        <h2>You have volunteered to help plant to make the planet a better place</h2>
-        <p>Dear {{user.username}}, you have volunteered successfully to help the area {{ city}} plant more trees to reduce carbon dioxide concentration in the atmosphere. We will mail you for more information on what to do next</p>
+        <div class="center">
+            <h2>You have volunteered to help plant to make the planet a better place</h2>
+            <canvas width="800px" height="600px" data-username="{{user.username}}" data-city="{{city}}" id="planted-cert-canvas"></canvas>
+        </div>
     {% endif %}
     
 </div>

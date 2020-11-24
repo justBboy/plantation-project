@@ -3,6 +3,7 @@
 
 {% block endscripts %}
     <script src="{% static 'js/map.js' %}"></script>
+    <script src="{% static 'js/donate-cert.js' %}"></script>
 {% endblock endscripts %}
 
 {% block links %} 
@@ -54,11 +55,11 @@
             </div>
         </div>
         {% else %}
-        <h2>You have donated successfully to sustain the world</h2>
-        <p>
-            Dear {{user.username}}, You have donated an amount of {{amount}}$ from {{city}} to help the world plant more trees to reduce carbon dioxide concentration in the atmosphere
-        </p>
-        {% endif %}
+        <div class="center">
+            <h2>You have donated successfully to sustain the world</h2>
+            <canvas width="800px" height="600px" data-username="{{user.username}}" data-amount="{{amount}}" data-city="{{city}}" id="donate-cert-canvas"></canvas>
+            {% endif %}
+        </div>
 
 </div>
 {% endblock content %}

@@ -17,6 +17,13 @@ fillConcChart();
 
 let sel = document.getElementById("country-selector");
 
+Array.from(document.querySelectorAll('.footer-btn')).forEach(btn => {
+  btn.addEventListener('click', e => {
+    e.preventDefault();
+    $("html, body").animate({scrollTop: $(e.target.dataset.scrollTo).offset().top - 50}, 1000)
+  })
+})
+
 function fillConcChart(e) {
   if (!isCo2GraphShown) {
     var year = [];

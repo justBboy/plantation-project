@@ -11,7 +11,7 @@
   </div>
 
   <div class="container content">
-    <section class="dataSection">
+    <section class="dataSection" id="dataSection">
       <h2 data-aos="zoom-in" data-aos-duration="500" class="dataSection__header text-center mt-5">
         Data Visualization
       </h2>
@@ -56,7 +56,7 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
       </div>
     </section>
     <!-- graph data section -->
-      <section class="graphDataSection">
+      <section class="graphDataSection" id="graphSection">
         <div class="graphDataSection__header">
           <div style="display: flex; flex-direction: column; align-items: center;">
             <h2 data-aos="zoom-in" data-aos-duration="500">Graph Data</h2>
@@ -76,7 +76,7 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
       </section>
     <!-- end graph data section -->
     <!-- impact section -->
-    <section class="impactSection text-center">
+    <section class="impactSection text-center" id="impactSection">
       <div class="impactSection__header">
         <div style="display: flex; flex-direction: column; align-items: center;">
           <h2 data-aos="zoom-in" data-aos-duration="500">Our Impact</h2>
@@ -128,7 +128,7 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
     </section>
     <!-- end impact section -->
     <!-- our team section -->
-    <section class="teamSection text-center mt-6 mb-6">
+    <section class="teamSection text-center mt-6 mb-6" id="teamSection">
       <div class="mb-5" style="display: flex; flex-direction: column; align-items: center;">
         <h2 data-aos="zoom-in" data-aos-duration="500">Our Team</h2>
         <div class="underline bg-dark" data-aos="zoom-in" data-aos-delay="500"></div>
@@ -190,7 +190,7 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
     </section>
     <!-- our team ends -->
     <!-- how it works section -->
-    <section class="howSection">
+    <section class="howSection" id="howSection">
       <h2 class="text-center" data-aos="zoom-in">How it works</h2>
       <hr style="box-shadow: 0 4px 0 0 #000" />
       <div class="how-row">
@@ -241,8 +241,48 @@ Beginning from 200ppm in the Ice Age, the CO2 levels have reached a recorded hig
       ></a>
     </section>
     <!-- end ready section -->
-    <!-- footer -->
-    <!-- end footer -->
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="footer-links mt-4">
+        <ul>
+          <li><a href="#dataSection" data-scroll-to="#dataSection" class="btn footer-btn">data</a></li>
+          <li><a href="#graphSection" data-scroll-to="#graphSection" class="btn footer-btn">graph</a></li>
+          <li><a href="#impactSection" data-scroll-to="#impactSection" class="btn footer-btn">impact</a></li>
+          <li><a href="#teamSection" data-scroll-to="#teamSection" class="btn footer-btn">team</a></li>
+          <li><a href="#howSection" data-scroll-to="#howSection" class="btn footer-btn">how we work</a></li>
+        </ul>
+      </div>
+      <div class="row" style="height: 100%; justify-content: space-evenly; align-items: center; flex-wrap: wrap;">
+          <div class="col-md-3 col-sm-3 footer-logo">
+            <h3>Aranyani</h3>
+          </div>
+          <div class="col-md-3 col-sm-3 footer-team-detail">
+            <img src="{% static '/assets/team1.jpg' %}" alt="" class="small-avatar">
+            <ul>
+              <li>Shreyas Kalikar</li>
+              <li>Information Technology</li>
+              <li><a href="https://www.linkedin.com/in/shreyas-kalikar-4488571a0">linkedin</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 footer-team-detail">
+            <img src="{% static '/assets/team1.jpg' %}" alt="" class="small-avatar">
+            <ul>
+              <li>Shreyas Kalikar</li>
+              <li>Information Technology</li>
+              <li><a href="https://www.linkedin.com/in/shreyas-kalikar-4488571a0">linkedin</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-3 footer-team-detail">
+            <img src="{% static '/assets/team1.jpg' %}" alt="" class="small-avatar">
+            <ul>
+              <li>Shreyas Kalikar</li>
+              <li>Information Technology</li>
+              <li><a href="https://www.linkedin.com/in/shreyas-kalikar-4488571a0">linkedin</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
   </div>
 
 {% endblock %}

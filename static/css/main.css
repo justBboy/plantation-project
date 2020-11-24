@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     width: 100vw;
     display: flex;
@@ -440,4 +445,71 @@ footer{
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.footer{
+    background-color: #333;
+    margin-bottom: 0;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.small-avatar{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+}
+
+.footer-team-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-team-detail > ul{
+    text-align: center;
+}
+
+.footer-team-detail > ul > li{
+    list-style: none;
+}
+
+.footer-links > ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links > ul > li{
+    list-style: none;
+}
+
+.footer-btn{
+    border: 1px solid #a22;
+    transition: all 0.3s ease-out;
+}
+
+.footer-btn:hover{
+    color: #ddd;
+    background: #222;
+}
+
+
+@media screen and (max-width: 580px){
+    .footer-team-detail{
+        display: none;
+    }
+    .footer-logo{
+        flex: 1 !important;
+        text-align: center;
+    }
+    .footer-links > ul{
+        flex-wrap: wrap;
+    }
+}
+
+.center{
+    display: grid;
+    place-items: center;
 }
