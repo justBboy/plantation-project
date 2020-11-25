@@ -57,11 +57,17 @@ function createStoreList(stores){
                 let storelng = parseFloat(store[2])
 
                 let storelat = parseFloat(store[1]);
+                let storeLink = store[3]
                 let newStore = document.createElement('li');
+                
+                newStore.classList.value = 'list-group-item store-item';
 
-                newStore.classList.value = 'list-group-item';
-
-                newStore.innerHTML = `<a style="width: 100%; height: 100%;" class="btn btn-success store-elem" data-store-latitude="${storelat}" data-store-longitude="${storelng}">${store[0]}</a>`
+                newStore.innerHTML = `<h6 style="flex:1; word-wrap: wrap">${store[0]}</h6>
+                <span>
+                <button title="locate on map" class="btn btn-success store-elem" data-store-latitude="${storelat}" data-store-longitude="${storelng}"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+                <a class="btn btn-danger" title="get info on google map" target="_blank" href="${storeLink ? storeLink : ''}"><i class="fa fa-info" aria-hidden="true"></i></a>
+                </span>
+                `
 
                 storeListElem.appendChild(newStore)
 

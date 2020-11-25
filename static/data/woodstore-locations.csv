@@ -1,10 +1,17 @@
-Shop Name ,Latitude,longitude
-Krishna Wood World,17.85933962,83.35128264
-SRI JAGADISH TIMBER MART,17.85557629,83.20422084
-"Wood & wud trading,visakhapatnam",17.8436546,83.32930096
-Wood Crafts,17.99000405,83.3073283
-Ebonny Plywood,17.76049927,83.32930109
-Sri Ganesh Timber Depot and Furniture Works,17.90241191,83.21310336
-Hanuman Wood Industries,13.31665878,77.7450013
-Shanthi Vijaya Saw Mill,13.16567486,77.60848858
-Kutch Vijay Saw Mills,13.67861295,77.60848858
+Shop Name ,Latitude,longitude,links
+Krishna Wood World,17.85933962,83.35128264,https://www.google.com/maps/dir//visakhapatnam+wood+stores/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3a395b9650b7241f:0xd5be942f5dd1d642?sa=X&ved=2ahUKEwibrtivxZ7tAhXizjgGHSzLCG4Q9RcwAHoECAQQBA
+SRI JAGADISH TIMBER MART,17.85557629,83.20422084,"https://www.google.com/maps/dir/28.9813287,77.7337622/visakhapatnam+wood+stores/@23.3041069,74.8134979,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a3967da40000001:0x47cc6045433b1667!2m2!1d83.2178067!2d17.7552971"
+"Wood & wud trading,visakhapatnam",17.8436546,83.32930096,"https://www.google.com/maps/dir/28.9813287,77.7337622/visakhapatnam+wood+stores/@22.6831233,74.6041261,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a39433aabf8610d:0xcd3553cee6544a8c!2m2!1d83.3043849!2d17.732242"
+Wood Crafts,17.99000405,83.3073283,
+Ebonny Plywood,17.76049927,83.32930109,"https://www.google.com/maps/dir/28.9813287,77.7337622/visakhapatnam+wood+stores/@23.293112,74.9166055,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a3969b1dfffbd55:0xf7d7166ec06bf401!2m2!1d83.303768!2d17.7333232"
+Sri Ganesh Timber Depot and Furniture Works,17.90241191,83.21310336,
+Hanuman Wood Industries,13.31665878,77.7450013,
+Shanthi Vijaya Saw Mill,13.16567486,77.60848858,
+Kutch Vijay Saw Mills,13.67861295,77.60848858,
+Bhullar Woodworks,32.18709593,74.76367731,"https://www.google.com/maps/place/Bhullar+wood+works+and+Hardware/@29.1087723,73.4911921,5.73z/data=!4m19!1m13!4m12!1m4!2m2!1d83.3254949!2d17.7096224!4e1!1m6!1m2!1s0x3919654644a59b09:0x75d607c52268299f!2sWoodwork+shops+in+amritsar!2m2!1d74.799871!2d31.6323883!3m4!1s0x3919654644a59b09:0x75d607c52268299f!8m2!3d31.6323883!4d74.799871"
+Virdi woodworks,31.95950082,75.00916392,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+amritsar/@29.4853906,73.2074061,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39197c98978da035:0x43d6ceedca69a29a!2m2!1d74.881517!2d31.606047"
+Nagi woodworks,31.98764484,74.81226879,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+amritsar/@29.3994737,72.7907845,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39197ab0626a4001:0xe564745ad9f07797!2m2!1d74.7950103!2d31.6083631"
+Mateen woodworks,27.16048082,80.86741886,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+lucknow/@23.0429802,79.1755244,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399bfdd02282bf95:0x1fe06a7d36ef20b3!2m2!1d80.9091484!2d26.8438666"
+Ajeet woodworks,27.19957348,80.88939152,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+lucknow/@22.2317946,79.3732783,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399bfdce04d969fb:0x3f1da5b200f8d72e!2m2!1d80.9102136!2d26.8402367"
+Om Prakash Timbers,27.17517269,80.95388653,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+lucknow/@23.8041163,76.3396288,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399be361efc7bc2f:0x73b2cc4b03460a0e!2m2!1d81.0139243!2d26.7950655"
+Anant ply,27.17517268,80.84402327,"https://www.google.com/maps/dir/17.7096224,83.3254949/Woodwork+shops+in+lucknow/@23.6029265,76.8889452,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x399bffa4b2a8e5a1:0x1e78a95a8913b5d1!2m2!1d80.8918462!2d26.7943732"
