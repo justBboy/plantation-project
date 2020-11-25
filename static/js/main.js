@@ -8,12 +8,13 @@ console.log("works")
 let isCo2GraphShown = false;
 let isEmissionGraphShown = false;
 
-document.getElementById("co2-btn").addEventListener("click", fillConcChart);
+document.getElementById("co2-btn").addEventListener("click", () => {
+  data = localStorage.getItem('co2-concentration');
+  fillConcChart(data)
+});
 document
   .getElementById("emission-btn")
   .addEventListener("click", fillEmissionChart);
-
-fillConcChart();
 
 let sel = document.getElementById("country-selector");
 
@@ -24,20 +25,24 @@ Array.from(document.querySelectorAll('.footer-btn')).forEach(btn => {
   })
 })
 
-function fillConcChart(e) {
+fetch(globalFiles.globalConcFile)
+.then(res => res.json())
+.then(data => localStorage.setItem('co2-concentration', JSON.stringify(data)))
+.then(() => {
+  data = localStorage.getItem('co2-concentration')
+  fillConcChart(data)
+})
+
+function fillConcChart(data) {
   if (!isCo2GraphShown) {
     var year = [];
     var conc = [];
-    console.log(globalFiles.globalConcFile);
-    fetch(globalFiles.globalConcFile)
-      .then((res) => res.json())
-      .then((data) => {
-        data.forEach((d) => {
+    let data = JSON.parse(localStorage.getItem('co2-concentration'));
+    console.log(data)
+    data.forEach((d) => {
           year.push(d["Year"]);
           conc.push(d["CO2 concentrations"]);
         });
-      })
-      .then(() => {
         isEmissionGraphShown = false;
         document.querySelector(
           ".chartsSection__charts"
@@ -88,8 +93,6 @@ function fillConcChart(e) {
           },
         });
         isCo2GraphShown = true;
-      })
-      .catch((err) => console.log(err));
   } else {
     document.querySelector(".chartsSection__charts").innerHTML = "";
     isCo2GraphShown = false;
@@ -303,16 +306,18 @@ var country_list = [
   "Zimbabwe",
 ];
 
-function fillEmissionChart(e) {
+fetch(globalFiles.co2File)
+.then(res => res.json())
+.then(data => localStorage.setItem('emission-data', JSON.stringify(data)))
+.catch(e => console.log(e))
+
+function fillEmissionChart() {
   if (!isEmissionGraphShown) {
     isCo2GraphShown = false;
-    console.log("works")
     let year = [];
     let co2 = [];
     let temp = [];
-    fetch(globalFiles.co2File)
-      .then((res) => res.json())
-      .then((data) => {
+      data = JSON.parse(localStorage.getItem('emission-data'));
         document.querySelector(".chartsSection__charts").innerHTML = `
             <canvas id='emission-chart' style='width:100%; height:400px;'></canvas>`;
         document.getElementById("country-selector").style.display = "block";
@@ -377,7 +382,6 @@ function fillEmissionChart(e) {
             },
           },
         });
-      });
   } else {
     document.querySelector(".chartsSection__charts").innerHTML = "";
     document.getElementById("country-selector").style.display = "none";
