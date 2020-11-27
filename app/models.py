@@ -20,7 +20,7 @@ def create_user_profile(sender, instance, created, **kwargs):
 
 class Donation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    amount = models.DecimalField(decimal_places=2, max_digits=5)
+    amount = models.DecimalField(decimal_places=4, max_digits=50)
     city = models.CharField(max_length=128)
     created_at = models.DateTimeField(auto_now=True)
 

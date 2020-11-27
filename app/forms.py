@@ -23,4 +23,4 @@ class PlantForm(forms.Form):
 
 class DonateForm(forms.Form):
     city = forms.CharField(max_length=128, widget=forms.TextInput(attrs={'class': 'form-control', 'id': 'city-name'}))
-    amount = forms.DecimalField(max_value=10000)
+    amount = forms.DecimalField(max_value=10000, decimal_places=2)
