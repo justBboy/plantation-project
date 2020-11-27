@@ -497,16 +497,6 @@ footer{
     list-style: none;
 }
 
-.footer-btn{
-    border: 1px solid #a22;
-    transition: all 0.3s ease-out;
-    margin-top: 10px;
-}
-
-.footer-btn:hover{
-    color: #ddd;
-    background: #222;
-}
 
 
 @media screen and (max-width: 580px){
