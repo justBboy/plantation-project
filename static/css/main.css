@@ -414,6 +414,7 @@ footer{
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .whySection__point > div{
