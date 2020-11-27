@@ -26,8 +26,8 @@
     {% endblock links %}
     <title>Aranyani</title>
   </head>
-  <body style="position: absolute; width: 100vw; height: 100vh; overflow-x: hidden;">
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}">Aranyani</a>
         <button
@@ -53,6 +53,9 @@
             <li class="nav-item">
               <a class="nav-link" href="{% url 'store-locator' %}">Wood Store Locator</a>
             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="{% url 'merchandise' %}">Merchandise</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link donate-link" href="{% url 'donate' %}"
                 >Donate
@@ -69,13 +72,8 @@
                 <a href="{% url 'profile' %}" class="nav-link bg-link">
                   {{user.username}}
                   <span>
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    {% if user.profile.planter %}
-                    <i class="fa fa-tree" aria-hidden="true"></i>
-                    {% endif %}
-                    {% if user.profile.donator %}
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    {% endif %}
+                    |
+                    {{user.profile.point}}pts
                   </span>
                 </a>
               </li>

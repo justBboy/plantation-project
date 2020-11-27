@@ -9,6 +9,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    position: relative;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,7 +54,7 @@ body{
     text-align: center;
 }
 
-@media screen and (max-width: 572px) {
+@media screen and (max-width: 768px) {
     .donate-link{
         margin-right: 0;
         margin-left: 0;
@@ -518,4 +519,47 @@ footer{
 .center{
     display: grid;
     place-items: center;
+}
+
+.merchandise-header{
+    background-image: url('/static/assets/bg-merchandise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.merchandise-header > h1{
+    font-size: 5rem;
+}
+
+.merchandise-header > p{
+    font-size: 14px;
+}
+
+.shop-item-card{
+    min-height: 450;
+    overflow-y: hidden;
+    box-shadow: 3px 3px 1px 0 rgb(0, 0, 0);
+    transition: all 0.3s ease-out;
+    margin: 10px;
+}
+
+.shop-item-card > img{
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.shop-item-card > img:hover {
+    opacity: 0.6;
+}
+
+.shop-item-card:hover{
+    transform: scale(1.008)
 }

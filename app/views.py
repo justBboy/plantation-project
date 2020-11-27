@@ -52,6 +52,7 @@ def donate_view(request):
             newDonation = Donation.objects.create(user=request.user, amount=request.POST.get('amount'), city=request.POST.get('city'))
             newDonation.save()
             request.user.profile.donator = True
+            request.user.profile.point += 50
             request.user.profile.save()
             amount = form.cleaned_data['amount']
             city = form.cleaned_data['city']
@@ -75,6 +76,7 @@ def plant_view(request):
             newPlantation = Plantation.objects.create(user=request.user, city=form.cleaned_data['city'])
             newPlantation.save()
             request.user.profile.planter = True
+            request.user.profile.point += 50
             request.user.profile.save()
             fromCity = form.cleaned_data['city']
             succeeded = True
@@ -95,3 +97,7 @@ def why_trees_view(request):
 
 def store_locator_view(request):
     return render(request, 'app/store-locator.html')
+
+def merchandise_view(request):
+    point = request.user.profile.point
+    return render(request, 'app/merchandise.html', {'point': point})

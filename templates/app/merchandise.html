@@ -1,0 +1,110 @@
+{% extends 'layout.html' %}
+{% load static  %}
+
+{% block content %}
+<div class="merchandise-header">
+        <h1>Get Your Gifts</h1>
+        <p>Plant and Donate more for more gifts</p>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="card col-md-4">
+                <img class="card-img-top" width="100%" height="50%" src="data:image/jpeg;base64,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" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Get Bracelet</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container" style="margin-top: 80px; position: relative;">
+        <div class="text-center mb-5">
+            <h2>Shop With Points</h2>
+        </div>
+        <div class="row mt-5" style="justify-content: space-evenly">
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+            <div class="card col-md-3 shop-item-card">
+                <img src="{% static 'assets/bracelet.jpg' %}" width="100%" height="50%" alt="bracelet" class="card-img-top shop-card-item-img">
+                <div class="card-body">
+                    <h3 class="card-title">Bracelet</h3>
+                    <p>500 points</p>
+                    <button class="btn btn-danger">Get</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+         <img src="{% static '/assets/Aranyani_logo.png' %}" width="100px" height="100px" alt="aranyani logo"> 
+         <h2>Aranyani</h2>
+         </div>
+        <div class="footer-links mt-4 col-md-4">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#dataSection" data-scroll-to="#dataSection" class="btn footer-btn">data</a></li>
+            <li><a href="#graphSection" data-scroll-to="#graphSection" class="btn footer-btn">graph</a></li>
+            <li><a href="#impactSection" data-scroll-to="#impactSection" class="btn footer-btn">impact</a></li>
+            <li><a href="#teamSection" data-scroll-to="#teamSection" class="btn footer-btn">team</a></li>
+            <li><a href="#howSection" data-scroll-to="#howSection" class="btn footer-btn">how we work</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-4">
+          <h2>Contact Us</h2>
+          <div style="position: relative;">
+            <i class="fa fa-phone-square" style="font-size: 40px;" aria-hidden="true"></i>
+            <span style="position: absolute; top: 30%; margin-left:10px">+91-8429845032</span>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div style="display: grid; place-items: center;">
+        <h6>© Copyright Aranyani</h6>
+      </div>
+    </div>
+  </div>
+{% endblock content %}

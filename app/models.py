@@ -7,6 +7,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     planter = models.BooleanField(default=False)
     donator = models.BooleanField(default=False)
+    point = models.IntegerField(default=0)
 
     def __str__(self):
         return self.user.username
