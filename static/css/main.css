@@ -398,6 +398,11 @@ footer{
 .planters-card{
  background-color: rgba(114, 162, 192, 0.2);
 }
+
+.wood-store-card{
+    background-color: #ddd;
+}
+
 .how-card{
     min-height: 300px !important;
     color: #111;
