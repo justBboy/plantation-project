@@ -43,12 +43,12 @@
                   </div>
                 <form method="POST" action="{% url 'donate' %}" id="payment-form">
                     {% csrf_token %}
-                    <div class="form-group">
+                    <div class="form-group mt-4">
                         <label for="card-element">
                         Credit or debit card
                         </label>
     
-                        <div id="card-element">
+                        <div id="card-element" class="mt-2">
                         <!-- A Stripe Element will be inserted here. -->
                         </div>                          
                     
