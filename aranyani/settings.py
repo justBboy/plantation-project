@@ -112,4 +112,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
+# stripe
+STRIPE_PUBLISHABLE_KEY = "pk_test_51HsaCRHFGa5Kppu909YIpVA3qjxS9tsJXwJ1tmB6PIgOGezX6UUVUEbN8LNCuPTSUAyUqYP4VLXog04m4mS4TYB200kvRXMaPx"
+STRIPE_SECRET_KEY = "sk_test_51HsaCRHFGa5Kppu9rEbW27J3whw1Qm3rKUCuFW0CwtYeTqAgpvaR4J7YKG3KaCBwHIkV6hyQDACXjmfcVbHmBLTv00hbI6xWwK"
+
 django_heroku.settings(locals())

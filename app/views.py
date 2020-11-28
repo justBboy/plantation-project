@@ -4,6 +4,9 @@ from .forms import SignUpForm, DonateForm, PlantForm, LoginForm
 from .models import Donation, Plantation
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
+import stripe
+
+stripe.api_key = "sk_test_51HsaCRHFGa5Kppu9rEbW27J3whw1Qm3rKUCuFW0CwtYeTqAgpvaR4J7YKG3KaCBwHIkV6hyQDACXjmfcVbHmBLTv00hbI6xWwK"
 
 def index(request):
     return render(request, 'app/home.html')
@@ -49,14 +52,23 @@ def donate_view(request):
     city = None
     if request.POST:
         if form.is_valid():
-            newDonation = Donation.objects.create(user=request.user, amount=request.POST.get('amount'), city=request.POST.get('city'))
-            newDonation.save()
-            request.user.profile.donator = True
-            request.user.profile.point += 50
-            request.user.profile.save()
-            amount = form.cleaned_data['amount']
-            city = form.cleaned_data['city']
-            succeeded = True
+            stripe_token = request.POST.get('stripeToken')
+            amount = request.POST.get('amount')
+            charge = stripe.Charge.create(
+                amount= int(amount),
+                currency= 'inr',
+                description = "donation charge",
+                source = stripe_token,
+            )
+            if charge:
+                newDonation = Donation.objects.create(user=request.user, amount=amount, city=request.POST.get('city'))
+                newDonation.save()
+                request.user.profile.donator = True
+                request.user.profile.point += 50
+                request.user.profile.save()
+                amount = form.cleaned_data['amount']
+                city = form.cleaned_data['city']
+                succeeded = True
 
     context = {
         'form': form,
