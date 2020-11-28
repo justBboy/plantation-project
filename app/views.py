@@ -5,6 +5,7 @@ from .models import Donation, Plantation
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
 import stripe
+import math
 
 stripe.api_key = "sk_test_51HsaCRHFGa5Kppu9rEbW27J3whw1Qm3rKUCuFW0CwtYeTqAgpvaR4J7YKG3KaCBwHIkV6hyQDACXjmfcVbHmBLTv00hbI6xWwK"
 
@@ -55,7 +56,7 @@ def donate_view(request):
             stripe_token = request.POST.get('stripeToken')
             amount = request.POST.get('amount')
             charge = stripe.Charge.create(
-                amount= int(amount),
+                amount= math.floor(float(amount)),
                 currency= 'inr',
                 description = "donation charge",
                 source = stripe_token,
