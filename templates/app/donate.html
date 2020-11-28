@@ -38,9 +38,7 @@
                 </div>
                 <hr />
                 <h2>Fill the donator's form</h2>
-                <div id="card-element">
-                    <!-- A Stripe Element will be inserted here. -->
-                  </div>
+             
                 <form method="POST" action="{% url 'donate' %}" id="payment-form">
                     {% csrf_token %}
                     <div class="form-group mt-4">
