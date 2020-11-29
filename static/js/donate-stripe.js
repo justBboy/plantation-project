@@ -26,10 +26,15 @@ var style = {
   // Add an instance of the card Element into the `card-element` <div>.
   card.mount('#card-element');
 
+document.getElementById('donate-submit-btn').disabled = false;
+
 var form = document.getElementById('payment-form');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
-
+  let submitBtn = document.getElementById('donate-submit-btn')
+  submitBtn.disabled = true;
+  submitBtn.className = "btn btn-disabled btn-danger"
+  
   stripe.createToken(card).then(function(result) {
     if (result.error) {
       // Inform the customer that there was an error.

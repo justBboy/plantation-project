@@ -559,3 +559,8 @@ footer{
 .shop-item-card:hover{
     transform: scale(1.008)
 }
+
+.btn-disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
