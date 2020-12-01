@@ -35,6 +35,7 @@
                     <label for="deathRateShow" class="btn btn-primary no-pointer">Show co2 emission Rate</label>
                     <input type="checkbox" id="c02-emission-rate-checkbox">
                 </div>
+                <button class="btn btn-success" id="aqi-btn">Show Air Quality Index</button>
                 </div>
                 <hr />
                 <h2>Fill the donator's form</h2>
@@ -77,4 +78,28 @@
         </div>
 
 </div>
+
+<div class="map-area" id="aqi-map-area" style="display: none;">
+        <h2 class="text-center">World Air Quality index</h2>
+    
+      <div  id='aqi-map'  style='height:300px;'  />  
+</div>
+
+<link  rel="stylesheet"  href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css"  />  
+<script  src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>  
+  
+<script>  
+      var  OSM_URL  =  'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';  
+      var  OSM_ATTRIB  =  '&copy;  <a  href="http://openstreetmap.org/copyright">OpenStreetMap</a>  contributors';  
+      var  osmLayer  =  L.tileLayer(OSM_URL,  {attribution:  OSM_ATTRIB});  
+  
+      var  WAQI_URL    =  "https://tiles.waqi.info/tiles/usepa-aqi/{z}/{x}/{y}.png?token=_TOKEN_ID_";  
+      var  WAQI_ATTR  =  'Air  Quality  Tiles  &copy;  <a  href="http://waqi.info">waqi.info</a>';  
+      var  waqiLayer  =  L.tileLayer(WAQI_URL,  {attribution:  WAQI_ATTR, tileSize: 512, minZoom: 0});  
+  
+      var  aqiMap  =  L.map('aqi-map').setView([27.9693414, -6.9273026],  5);  
+      aqiMap.addLayer(osmLayer).addLayer(waqiLayer);  
+</script>
+  
+
 {% endblock content %}
