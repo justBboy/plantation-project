@@ -21,10 +21,6 @@ document
     showCo2Emission(map);
   });
 
-  document.getElementById('aqi-btn').addEventListener('click', () => {
-    $('#aqi-map-area').toggle();
-  })
-
 let deathRateShown = false;
 let shownCo2Emission = false;
 let source_added_emission = false;
